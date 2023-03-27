@@ -10,9 +10,9 @@ Pages = ["chapter1.md"]
 
 ## Wat je nodig hebt
 
-- [BBC Micro:bit – Go:Bundle V2](https://elektronicavoorjou.nl/product/bbc-microbit-gobundle-v2/)
-- Mico USB aan Standaard USB kabel (is onderdeel van de bovenvermelde kit)
-- Laptop met een moderne browser met een standaard USB aansluiting (Chrome, Firefox, Safari)
+- [BBC Micro:bit – Go:Bundle V2](https://elektronicavoorjou.nl/product/bbc-microbit-gobundle-v2/).
+- Mico USB aan Standaard USB kabel (is onderdeel van de bovenvermelde kit).
+- Laptop met een moderne browser (Chrome, Firefox, Safari) met een standaard USB aansluiting.
 
 ## Wat je gaat doen
 
