@@ -8,7 +8,7 @@ makedocs(
         "Micro:bit voor Kids" => "index.md",
         "Blog" => "blog.md",
         "Level 1 - Introductie" => [
-            "Kennismaking met de Micro:bit" => "chapter1.md",
+            "Kennismaken met de Micro:bit" => "chapter1.md",
             "Variabelen, lussen en if...then gebruiken" => "chapter2.md",
             "Radio communicatie tussen Micro:bits" => "chapter3.md"
         ],
