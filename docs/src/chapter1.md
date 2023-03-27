@@ -1,4 +1,4 @@
-# Kennismaking met de Micro:bit
+# Kennismaken met de Micro:bit
 
 *Je gaat kennismaken met een website waarop je kunt leren programmeren voor een Micro:bit. Je begint met het maken van een programma waardoor je naam op de Micro:bit verschijnt. Je leert ook hoe je het programma kunt opslaan en op de Micro:bit kunt zetten.*
 
