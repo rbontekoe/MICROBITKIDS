@@ -92,7 +92,7 @@ Wanneer je een computerprogramma maakt, wil je misschien beginnen met het instel
 
 ## Stap 4: Bedieningselementen instellen
 
-In deze stap ga je vertellen aan de computer wat het moet doen als  In principe komt deze stap er op neer dat je de waarden van variabelen aanpast aan de nieuw situatie.
+n deze stap ga je aan de computer uitleggen wat hij moet doen in een nieuwe situatie. Het is een beetje zoals wanneer je aan een vriend uitlegt wat hij moet doen als er iets verandert. Maar in plaats daarvan praat je met de computer en vertel je hem welke informatie hij moet gebruiken om de juiste dingen te doen. Dit doe je door bepaalde waarden te veranderen, zodat de computer weet wat hij moet doen.
 
 - Er wordt op knop A gedrukt.
 - Er wordt op knop B gedrukt.
@@ -100,11 +100,11 @@ In deze stap ga je vertellen aan de computer wat het moet doen als  In principe 
 
 #### Er wordt op knop A gedrukt
 
-Het hart moet gaan kloppen, dat wil zeggen dat je de waarde van de variabele "iskloppend" van 0 naar 1 moet veranderen.
+Het hart moet gaan kloppen, dat betekent dat we aan de computer moeten vertellen dat het tijd is om het hart te laten kloppen. Dit doen we door een speciale code te geven, genaamd "iskloppend". We moeten de waarde van "iskloppend" veranderen van 0 naar 1, zodat de computer weet dat het hart moet gaan kloppen. Het is als het geven van een seintje aan de computer om het hart aan te zetten.
 
 |Stap        | Actie      |
 |:---------- | :---------- |
-| 1 | Sleep het blok "wanneer knop A wordt ingedrukt", dat staat in de categorie "Invoer" naar je werkblad. ``\\``![fig_2_10](assets/fig_2_10.png) |
+| 1 | Sleep het blok "wanneer knop A wordt ingedrukt". Dit blok vind je in de categorie "Invoer".  ``\\``![fig_2_10](assets/fig_2_10.png) |
 | 2 | Klik met je rechtermuistoets op het blok "stel iskloppend in op 0" in het blok "bij opstarten". ``\\``![fig_2_11](assets/fig_2_11.png) |
 | 3 | Klik op "Dupliceren". Je krijgt een kopie ervan op je werkblad. ``\\``![fig_2_12](assets/fig_2_12.png) |
 | 4 | Sleep de kopie in het blok "wanneer knop A wordt ingedrukt" en verander de waarde van de variabele in "1". ``\\``![fig_2_13](assets/fig_2_13.png) |
@@ -126,11 +126,18 @@ We zijn bijna klaar. We moeten nog "een als...dan" blok maken voor de lichtjes m
 |:---------- | :---------- |
 | 1 | Sleep de lampjes uit het "de hele tijd" blok. ``\\``![fig_1_16](assets/fig_2_16.png)
 | 2 | Sleep een "als...dan" blok uit de categorie "Logisch" in het "de hele tijd" blok. ``\\``![fig_2_17](assets/fig_2_17.png) |
-| 3 | Je gaat de conditie opstellen: als "iskloppend = 1". Het hart moet dan gaan kloppen. 
+| 3 | Je gaat de conditie opstellen: als "iskloppend = 1". Sleep het blok "0 = 0" uit "Logisch" naar je werblad. ``\\``![fig_2_18](assets/fig_2_18.png) |
+| 4 | Klik op de categorie "Variabelen" en sleep de variabele "iskloppend" naar de conditie. Laat de twee rode stippen op elkaar vallen. ``\\``![fig_2_19](assets/fig_2_19.png) |
+| 5 | Stel de waarde in op "1" ``\\``![fig_2_20](assets/fig_2_20.png) |
+| 6 | Sleep de condie naar het "als...dan" blok. ``\\``![fig_2_21](assets/fig_2_21.png) |
+| 7 | Sleep de lampjes binnen het "als...dan" blok. |
+| 8 | Sleep de variabele "snelheid" naar het "pauzeer (ms)" blok. Maak een kopie van het blok en zet dat onder het laatste "toon lichtjes" blok. ``\\``![fig_2_22](assets/fig_2_22.png) |
+||
+
 
 ##### Opdracht 2
 
- en dat het hart langzamer gaat lopen als we op zowel toets A en B drukken
+Probeer de volgende opdracht uit te voeren.
 
 1. Maak een kopie van het blok "wanneer knop A wordt ingedrukt".
 2. Klik op het keuzepijltje en verander de "A" in "A + B".
