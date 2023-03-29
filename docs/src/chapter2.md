@@ -92,7 +92,7 @@ Wanneer je een computerprogramma maakt, wil je misschien beginnen met het instel
 | 3 | Druk op de knop "OK". ``\\``![fig_2_7](assets/fig_2_7.png) |
 | 4 | Sleep "stel iskloppend in op 0" naar het blok "bij opstarten. ``\\``![fig_2_8](assets/fig_2_8.png) |
 | 5 | Klik op de knop "Maak een variabele" in de categorie "Variabelen". |
-| 6 | Type "snelheid". |
+| 6 | Typ "snelheid". |
 | 7 | Druk op de knop "OK". |
 | 8 | Sleep "stel snelheid in op 0" naar het blok "bij opstarten. ``\\``![fig_2_9](assets/fig_2_9.png) |
 
