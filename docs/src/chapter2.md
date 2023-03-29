@@ -134,7 +134,7 @@ We zijn bijna klaar. We moeten nog "een als...dan" blok maken voor de lichtjes m
 | 2 | Sleep een "als...dan" blok uit de categorie "Logisch" in het "de hele tijd" blok. ``\\``![fig_2_17](assets/fig_2_17.png) |
 | 3 | Stel de conditie op: 'als iskloppend gelijk is aan 1'. Sleep het blok "0 = 0" uit "Logisch" naar je werblad. ``\\``![fig_2_18](assets/fig_2_18.png) |
 | 4 | Klik op de categorie "Variabelen" en sleep de variabele "iskloppend" naar de conditie. Verbind de twee rode stippen met elkaar. ``\\``![fig_2_19](assets/fig_2_19.png) |
-| 5 | Stel de waarde in op "1" ``\\``![fig_2_20](assets/fig_2_20.png) |
+| 5 | Stel de waarde in op "1". ``\\``![fig_2_20](assets/fig_2_20.png) |
 | 6 | Sleep de condie naar het "als...dan" blok. ``\\``![fig_2_21](assets/fig_2_21.png) |
 | 7 | Sleep de lampjes binnen het "als...dan" blok. |
 | 8 | Sleep de variabele "snelheid" naar het "pauzeer (ms)" blok. Maak een kopie van het blok en zet dat onder het laatste "toon lichtjes" blok. ``\\``![fig_2_22](assets/fig_2_22.png) |
@@ -153,7 +153,7 @@ Probeer de volgende opdracht uit te voeren.
 
 ![fig_2_15](assets/fig_2_15.png)``\\``*Het resultaat na opdracht 2*
 
-Niet raar als je dit een lastige opdracht vond. Maar je bent inmiddels wel een echte progtrammeur geworden. Of alles werkt zoals het moet merk je als je stap 5 hebt gedaan.
+Niet raar als je dit een lastige opdracht vond. Maar je bent inmiddels wel een echte progtrammeur geworden. Of alles werkt zoals het moet merk je als je stap 6 hebt gedaan.
 
 ## Stap 6 - Testen in de simulator
 
