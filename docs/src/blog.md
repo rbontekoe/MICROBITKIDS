@@ -4,7 +4,7 @@
 
 ### 28-03-2023 - Les 2 is klaar
 
-In Les 2 leer je hoe je moet programmeren voor de Micro:bit. Dat is een heel belangrijke les! Aan het einde van deze les ben je al best goed geworden in programmeren. Je gaat een kloppend hart maken dat je kunt laten knipperen of stoppen door op de knoppen van de Micro:bit te drukken. Cool hè?
+In Les 2 (Variabelen, lussen en als...dan gebruiken) leer je hoe je moet programmeren voor de Micro:bit. Dat is een heel belangrijke les! Aan het einde van deze les ben je al best goed geworden in programmeren. Je gaat een kloppend hart maken dat je kunt laten knipperen of stoppen door op de knoppen van de Micro:bit te drukken. Cool hè?
 
 ### 27-03-2023 - Les 1 is klaar
 
