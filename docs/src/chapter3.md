@@ -34,10 +34,18 @@ Stap 1: de vos maken.
 
 Stap 2: een jager maken.
 
+Stap 3: het vossenspel testen.
+
 ## De vos maken
 
+Je bent inmiddels zo gevorderd dat je dit diagram makkelijk kunt begrijpen.
+
+![fig_3_1](assets/fig_3_1.png)
 
 ## Een jager maken
 
+Ook de jager is makkelijk te maken.
+
+![fig_3_2](assets/fig_3_2.png)
 
 ## Samenvattig
