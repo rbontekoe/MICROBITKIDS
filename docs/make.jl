@@ -8,19 +8,19 @@ makedocs(
         "Micro:bit voor Kids" => "index.md",
         "Blog" => "blog.md",
         "Level 1 - Introductie" => [
-            "Kennismaken met de Micro:bit" => "chapter1.md",
-            "Variabelen, lussen en if...then gebruiken" => "chapter2.md",
-            "Radio communicatie tussen Micro:bits" => "chapter3.md"
+            "1 Kennismaken met de Micro:bit" => "chapter1.md",
+            "2 Variabelen, lussen en if...then gebruiken" => "chapter2.md",
+            "3 Radio communicatie tussen Micro:bits" => "chapter3.md"
         ],
         "Level 2 - Sensoren" => [
-            "Soorten sensoren" => "chapter4.md",
-            "Stuursoftware ophalen" => "chapter5.md",
-            "Temperatuur meten" => "chapter6.md"
+            "4 Soorten sensoren" => "chapter4.md",
+            "5 Stuursoftware ophalen" => "chapter5.md",
+            "6 Temperatuur meten" => "chapter6.md"
         ],
         "Level 3 - MicroPython" => [
-            "Introductie MicroPython" => "chapter7.md",
-            "Displays aansturen via de i2c bus" => "chapter8.md",
-            "Communicatie via wifi" => "chapter9.md"
+            "7 Introductie MicroPython" => "chapter7.md",
+            "8 Displays aansturen via de i2c bus" => "chapter8.md",
+            "9 Communicatie via wifi" => "chapter9.md"
         ],
         "Bijlage" => "appendix.md",
         "References" => "references.md"

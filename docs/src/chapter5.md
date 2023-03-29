@@ -1,4 +1,4 @@
-# Stuursoftware ophalen
+# 5 Stuursoftware ophalen
 
 *Om sensoren of actuatoren iets te kunnen laten doen, moet je software downloaden waarmee je ze kunt aansturen.*
 
