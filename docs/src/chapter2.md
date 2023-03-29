@@ -1,20 +1,24 @@
-# Variabelen, lussen en if...then gebruiken
+# Variabelen, lussen en als...dan gebruiken
 
-Hallo daar! Ben jij geïnteresseerd in programmeren? Dat is geweldig! Programmeren is het proces waarbij we een computer of een apparaat zoals de Micro:bit vertellen wat het moet doen. En in deze introductie ga ik je vertellen over een paar belangrijke concepten in het programmeren, namelijk variabelen, lussen en als...dan verklaringen en hoe je ze kunt gebruiken met de Micro:bit, samen met specifieke besturingstoetsen zoals knop A en knop B.
-
-Laten we beginnen met variabelen. Een variabele is een stukje informatie dat we kunnen opslaan en gebruiken in ons programma. Het kan bijvoorbeeld een getal of een woord zijn. Met variabelen kunnen we informatie opslaan en later weer ophalen. Stel je voor dat je een programma maakt om de score bij te houden van een spel dat je speelt op de Micro:bit. Dan kun je een variabele genaamd 'score' maken en deze elke keer dat je een punt scoort met 1 verhogen.
-
-Lussen zijn ook belangrijk bij het programmeren. Een lus is als een herhalingsproces waarbij een stukje code meerdere keren wordt uitgevoerd. Hiermee kunnen we bijvoorbeeld een bepaalde actie meerdere keren herhalen. Stel je voor dat je een programma schrijft om een ​​patroon van lichtjes te maken op de Micro:bit. Dan kun je een lus gebruiken om hetzelfde stukje code te herhalen totdat het patroon is voltooid.
-
-Ten slotte zijn er de als...dan verklaringen. Deze helpen ons om beslissingen te nemen in ons programma. Als bijvoorbeeld de knop A op de Micro:bit wordt ingedrukt, willen we misschien een bepaalde actie uitvoeren, zoals de score verhogen. Dit kan worden gedaan met een als...dan verklaring.
-
-Dus daar heb je het, een korte introductie tot programmeren met de Micro:bit. Met variabelen, lussen en als...dan verklaringen kunnen we complexe programma's schrijven die ons helpen om de Micro:bit te besturen en leuke dingen te maken!
+*In deze les leer je belangrijke dingen als je wilt programmeren.*
 
 ### Inhoud
 
 ```@contents
 Pages = ["chapter2.md"]
 ```
+
+## Inleiding
+
+Ben jij geïnteresseerd in programmeren? Dat is geweldig! Programmeren is het proces waarbij we een computer of een apparaat zoals de Micro:bit vertellen wat het moet doen. En in deze introductie zal ik je vertellen over een paar belangrijke concepten in het programmeren, namelijk variabelen, lussen en als...dan verklaringen en hoe je ze kunt gebruiken met de Micro:bit, samen met specifieke besturingstoetsen zoals knop A en knop B.
+
+Laten we beginnen met variabelen: een variabele is een gegeven dat we kunnen opslaan en gebruiken in ons programma. Het kan bijvoorbeeld een getal of een woord zijn. Met variabelen kunnen we informatie opslaan en later weer ophalen. Stel je voor dat je een programma maakt om de score bij te houden van een spel dat je speelt op de Micro:bit. Dan kun je een variabele genaamd 'score' maken en deze elke keer dat je een punt scoort met 1 verhogen.
+
+Lussen zijn ook belangrijk bij het programmeren. Een lus is als een herhalingsproces waarbij een stukje code meerdere keren wordt uitgevoerd. Hiermee kunnen we bijvoorbeeld een bepaalde actie meerdere keren herhalen. Stel je voor dat je een programma schrijft om een ​​patroon van lichtjes te maken op de Micro:bit. Dan kun je een lus gebruiken om hetzelfde stukje code te herhalen totdat het patroon is voltooid.
+
+Ten slotte zijn er de als...dan verklaringen. Deze helpen ons om beslissingen te nemen in ons programma. Als bijvoorbeeld de knop A op de Micro:bit wordt ingedrukt, willen we wellicht een bepaalde actie uitvoeren, zoals het verhogen van de score. Dit kan worden gedaan met een als...dan verklaring.
+
+Dus daar heb je het, een korte introductie tot programmeren met de Micro:bit. Met variabelen, lussen en als...dan verklaringen kunnen we complexe programma's schrijven die ons helpen om de Micro:bit te besturen en leuke dingen te maken!
 
 ## Wat heb je nodig
 
@@ -37,6 +41,8 @@ Stap 3: Bedenk wat er moet gebeuren als de computer begint.
 Stap 4: Bedieningselementen instellen.
 
 Stap 5: Bedenk wat de computer steeds moet blijven doen.
+
+Stap 6: Testen in de simulator.
 
 ## Stap 1 - Hoe een kloppend hart maken?
 
@@ -92,7 +98,7 @@ Wanneer je een computerprogramma maakt, wil je misschien beginnen met het instel
 
 ## Stap 4: Bedieningselementen instellen
 
-n deze stap ga je aan de computer uitleggen wat hij moet doen in een nieuwe situatie. Het is een beetje zoals wanneer je aan een vriend uitlegt wat hij moet doen als er iets verandert. Maar in plaats daarvan praat je met de computer en vertel je hem welke informatie hij moet gebruiken om de juiste dingen te doen. Dit doe je door bepaalde waarden te veranderen, zodat de computer weet wat hij moet doen.
+In deze stap ga je aan de computer uitleggen wat hij moet doen in een nieuwe situatie. Het is een beetje zoals wanneer je aan een vriend uitlegt wat hij moet doen als er iets verandert. Maar in plaats daarvan praat je met de computer en vertel je hem welke informatie hij moet gebruiken om de juiste dingen te doen. Dit doe je door bepaalde waarden te veranderen, zodat de computer weet wat hij moet doen.
 
 - Er wordt op knop A gedrukt.
 - Er wordt op knop B gedrukt.
@@ -126,8 +132,8 @@ We zijn bijna klaar. We moeten nog "een als...dan" blok maken voor de lichtjes m
 |:---------- | :---------- |
 | 1 | Sleep de lampjes uit het "de hele tijd" blok. ``\\``![fig_1_16](assets/fig_2_16.png)
 | 2 | Sleep een "als...dan" blok uit de categorie "Logisch" in het "de hele tijd" blok. ``\\``![fig_2_17](assets/fig_2_17.png) |
-| 3 | Je gaat de conditie opstellen: als "iskloppend = 1". Sleep het blok "0 = 0" uit "Logisch" naar je werblad. ``\\``![fig_2_18](assets/fig_2_18.png) |
-| 4 | Klik op de categorie "Variabelen" en sleep de variabele "iskloppend" naar de conditie. Laat de twee rode stippen op elkaar vallen. ``\\``![fig_2_19](assets/fig_2_19.png) |
+| 3 | Stel de conditie op: 'als iskloppend gelijk is aan 1'. Sleep het blok "0 = 0" uit "Logisch" naar je werblad. ``\\``![fig_2_18](assets/fig_2_18.png) |
+| 4 | Klik op de categorie "Variabelen" en sleep de variabele "iskloppend" naar de conditie. Verbind de twee rode stippen met elkaar. ``\\``![fig_2_19](assets/fig_2_19.png) |
 | 5 | Stel de waarde in op "1" ``\\``![fig_2_20](assets/fig_2_20.png) |
 | 6 | Sleep de condie naar het "als...dan" blok. ``\\``![fig_2_21](assets/fig_2_21.png) |
 | 7 | Sleep de lampjes binnen het "als...dan" blok. |
@@ -149,5 +155,25 @@ Probeer de volgende opdracht uit te voeren.
 
 Niet raar als je dit een lastige opdracht vond. Maar je bent inmiddels wel een echte progtrammeur geworden. Of alles werkt zoals het moet merk je als je stap 5 hebt gedaan.
 
-## Samenvatting
+## Stap 6 - Testen in de simulator
 
+Test de volgende functies:
+- Er wordt op knop A gedrukt: het hart gaat kloppen.
+- Er wordt op knop A + B gedrukt: het hart gaat langzamer kloppen.
+- Er wordt weer op knop A + B gedrukt: het hart gaat sneller kloppen.
+- Er wordt op knop B gedrukt: het hart stopt met kloppen.
+- Er wordt op knop A gedrukt: het hart gaat kloppen.
+
+
+Zoals je op het plaatje ziet is de A + B toets een aparte toets op de simulator.
+
+![fig_2_23](assets/fig_2_23.png)
+
+##### Opdracht 3
+
+1. Bewaar je code in de Micro:bit folder.
+2. Sleep de code naar je Micro:bit.
+3. Test dezelfde functies als in de simulator.
+
+## Samenvatting
+In deze les leer je de basisconcepten van programmeren, namelijk variabelen, lussen en als...dan verklaringen, en hoe je ze kunt gebruiken met de Micro:bit. Variabelen zijn stukjes informatie die we kunnen opslaan en later weer kunnen ophalen. Lussen zijn herhalingsprocessen die een stukje code meerdere keren uitvoeren. Als...dan verklaringen helpen ons beslissingen te nemen in ons programma. Je hebt een Micro:bit, een USB-kabel en een laptop nodig de les te volgen. Je gaat een kloppend hart maken dat je kunt laten knipperen of stoppen met de knoppen op de Micro:bit.
