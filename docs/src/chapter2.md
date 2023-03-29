@@ -177,3 +177,5 @@ Zoals je op het plaatje ziet is de A + B toets een aparte toets op de simulator.
 
 ## Samenvatting
 In deze les leer je de basisconcepten van programmeren, namelijk variabelen, lussen en als...dan verklaringen, en hoe je ze kunt gebruiken met de Micro:bit. Variabelen zijn stukjes informatie die we kunnen opslaan en later weer kunnen ophalen. Lussen zijn herhalingsprocessen die een stukje code meerdere keren uitvoeren. Als...dan verklaringen helpen ons beslissingen te nemen in ons programma. Je hebt een Micro:bit, een USB-kabel en een laptop nodig de les te volgen. Je gaat een kloppend hart maken dat je kunt laten knipperen of stoppen met de knoppen op de Micro:bit.
+
+Op de homepagina van [MakeCode](https://makecode.microbit.org/) staan allerlei cursussen die je kunt volgen!
