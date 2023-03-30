@@ -1,6 +1,6 @@
 # 3 Radio communicatie tussen Micro:bits
 
-*De Micro:bit kan goed informatie uitwisselen met andere Micro:bits. We gaan een spel maken dat Vossenjacht heet. Eén persoon is de Vos en alle andere kinderen gaan de Vos zoeken. De Vos heeft een rode sjaal en een Micro:bit om zijn nek. Op het scherm van de Micro:bit van de Vos zie je om de 5 seconden een plaatje van een Vos. De Vos heeft zich verstopt en alle andere kinderen hebben ook een Micro:bit. Als ze dicht genoeg bij de Vos komen, dan geeft de Micro:bit van de Vos een teken dat je in de buurt bent.*
+*De Micro:bit kan goed informatie uitwisselen met andere Micro:bits. We gaan een spel maken dat vossenjacht heet. Eén persoon is de vos en alle andere kinderen gaan de vos zoeken. De vos heeft een rode sjaal en een Micro:bit om zijn nek. Op het scherm van de Micro:bit van de vos zie je om de 5 seconden een plaatje van een vos. De vos heeft zich verstopt en alle andere kinderen hebben ook een Micro:bit. Als ze dicht genoeg bij de vos komen, dan geeft de Micro:bit van de vos een teken dat je in de buurt bent.*
 
 ### Inhoud
 
@@ -10,7 +10,7 @@ Pages = ["chapter3.md"]
 
 ## Inleiding
 
-Hey, ik ga je vertellen over een tof spel dat je kunt maken met je micro:bit. Het heet "Vossenjacht"! Eén van jullie zal de "vos" zijn en hij draagt een micro:bit om zijn nek. Je kunt de "vos" herkennen aan een bericht dat zijn of haar micro:bit uitzendt. (Een vrouwtjesvos noemen je een moer, het mannetje is een rekel.)
+Hey, ik ga je vertellen over een tof spel dat je kunt maken met je micro:bit. Het heet "Vossenjacht"! Eén van jullie zal de "vos" zijn en hij draagt een micro:bit om zijn nek. Je kunt de "vos" herkennen aan een bericht dat zijn of haar micro:bit uitzendt. (Een vrouwtjesvos noem je een moer, het mannetje is een rekel.)
 
 Het bericht wordt verstuurt via "radio communicatie" en je hebt er geen wifi voor nodig om het te gebruiken. De blokken om het te gebruiken staan in de categorie "Radio".
 
@@ -36,7 +36,7 @@ Stap 2: een jager maken.
 
 Stap 3: het vossenspel testen.
 
-## De vos maken
+## Stap 1 - De vos maken
 
 Je bent inmiddels zo gevorderd dat je dit diagram makkelijk kunt begrijpen. De vos zendt een wachtwoord uit waaraan hij of zij te herkennen is en dat de jager tegen de vos moet zeggen.
 
@@ -74,14 +74,11 @@ Het doel van deze test is om te controleren of je het spel en de code goed begri
 2. 5 seconden
 3. 10 seconden
 
-## Een jager maken
+##  Stap 2 - een jager maken
 
 In het spel moet de jager het wachtwoord van een vos weten om de vos te kunnen vangen. De jager ziet het wachtwoord op zijn scherm en zegt het dan tegen de vos.
 
 Maar nu gaan we iets nieuws leren: een **functie**! Een functie is een soort gereedschap in het programmeren waarmee je taken gemakkelijk kunt hergebruiken in een programma. Je kunt een grote taak opdelen in kleine stukjes code die elk een kleine taak doen. Wanneer je de functie gebruikt, doet het wat je vraagt en geeft het resultaat terug.
-
-
-Er komt wel iets nieuws om de hoek kijken, namelijk het gebruik van een functie. In programmeren is een functie als een gereedschap dat een specifieke taak kan doen en kan worden **hergebruikt** in een programma. Functies zijn handig omdat ze de grote klus opdelen in kleine stukjes code die elk een kleine taak doen. Als je de functie gebruikt, dan doet het de taak en geeft het resultaat terug aan het programma. Soms kan je de functie vertellen wat te doen door het te voorzien van gegevens (invoer), en soms geeft de functie gegevens terug (uitvoer). Functies maken het gemakkelijker om de code te begrijpen en te onderhouden. Het is een belangrijk onderdeel van programmeren omdat het helpt bij het schrijven van betere en efficiëntere programma's.
 
 We gaan een functie maken als je het wachtwoord van de vos via de radio ontvangt. We gaan een functie maken om te testen of het ook werkt als we op knop A drukken. We gebruiken hiervoor het hulpwachtwoord "rode sjaal". Maar ook om te testen of je code werkt.
 
@@ -112,6 +109,8 @@ De functie "toon" wordt zowel in beide events gebrukt "wanneer de radio ontvangt
 
 ##### Multiple choice vragen
 
+Het doel van deze test is om te controleren of je het spel en de code goed begrijpt. De antwoorden staan in de bijlage.
+
 **Wat is een functie in programmeren?**
 1. Een gereedschap om de code te onderhouden
 2. Een kleine taak in een programma
@@ -141,6 +140,14 @@ De functie "toon" wordt zowel in beide events gebrukt "wanneer de radio ontvangt
 1. De functie "start"
 2. De functie "stop"
 3. De functie "toon"
+
+## Stap 3 - het vossenspel testen
+
+Test het vossenspel.
+
+1. Zet de micro:bit van de jager aan en druk op knop A.
+
+2. Zet micro:bit van de vos aan en kijk of je het wachtwoord ontvangt.
 
 ## Samenvatting
 
