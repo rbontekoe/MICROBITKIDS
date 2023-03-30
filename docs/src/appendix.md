@@ -50,3 +50,42 @@ Hoe lang wordt het symbool van de vos op het led-display getoond?
 2. 5 seconden
 3. 10 seconden
 Antwoord: 3. 5 seconden
+
+## Les 3, antwoorden op de multiple choice vragen over de jager
+
+**Wat is een functie in programmeren?**
+1. Een gereedschap om de code te onderhouden
+2. Een kleine taak in een programma
+3. Een manier om taken te hergebruiken in een programma
+Antwoord: 3. Een manier om taken te hergebruiken in een programma
+
+
+**Waarom zijn functies handig in programmeren?**
+1. Omdat ze grote klussen opdelen in kleine stukjes code
+2. Omdat ze code gemakkelijker maken om te begrijpen en onderhouden
+3. Beide antwoorden zijn correct
+Antwoord: 3. Beide antwoorden zijn correct
+
+**Wat zijn argumenten in een functie?**
+1. Namen die worden gegeven aan variabelen in een programma
+2. Kleine taken die de functie uitvoert
+3. Gegevens die de functie nodig heeft om zijn taak uit te voeren
+Antwoord: 3. Gegevens die de functie nodig heeft om zijn taak uit te voeren
+
+**Waarom wordt er een testwachtwoord gebruikt in de tekst?**
+1. Om het wachtwoord van de vos te vervangen
+2. Om te testen of de code werkt
+3. Om de radio-ontvangst te verbeteren
+Antwoord: 2. Om te testen of de code werkt
+
+**Wat gebeurt er als op knop A wordt gedrukt?**
+1. Het symbool van de vos verschijnt op het led-display
+2. Het wachtwoord van de vos wordt getoond op het scherm
+3. De micro:bit wordt uitgeschakeld
+Antwoord: 1. Het symbool van de vos verschijnt op het led-display
+
+**Welke functie wordt gebruikt in zowel "wanneer de radio ontvangt" als "wanneer knop A wordt ingedrukt"?**
+1. De functie "start"
+2. De functie "stop"
+3. De functie "toon"
+Antwoord: 3. toon
