@@ -10,7 +10,7 @@ Pages = ["chapter3.md"]
 
 ## Inleiding
 
-Hey, ik ga je vertellen over een tof spel dat je kunt maken met je micro:bit. Het heet "Vossenjacht"! Eén van jullie zal de "vos" zijn en hij draagt een micro:bit om zijn nek. Je kunt de "vos" herkennen aan een bericht dat zijn of haar micro:bit uitzendt. 
+Hey, ik ga je vertellen over een tof spel dat je kunt maken met je micro:bit. Het heet "Vossenjacht"! Eén van jullie zal de "vos" zijn en hij draagt een micro:bit om zijn nek. Je kunt de "vos" herkennen aan een bericht dat zijn of haar micro:bit uitzendt. (Een vrouwtjesvos noemen je een moer, het mannetje is een rekel.)
 
 Het bericht wordt verstuurt via "radio communicatie" en je hebt er geen wifi voor nodig om het te gebruiken. De blokken om het te gebruiken staan in de categorie "Radio".
 
@@ -38,14 +38,110 @@ Stap 3: het vossenspel testen.
 
 ## De vos maken
 
-Je bent inmiddels zo gevorderd dat je dit diagram makkelijk kunt begrijpen.
+Je bent inmiddels zo gevorderd dat je dit diagram makkelijk kunt begrijpen. De vos zendt een wachtwoord uit waaraan hij of zij te herkennen is en dat de jager tegen de vos moet zeggen.
 
 ![fig_3_1](assets/fig_3_1.png)
 
+##### Bespreking van de code
+
+Tijdens het starten van de micro:bit wordt voor het uitzendkanaal 10 gekozen. De sterkte van het signaal staat op 7 en dat betekent dat het bericht op maximale sterkte wordt uitgezonden.
+
+Tevens wordt het wachtwoord gezet op "rode sjaal". Hieraan is de vos te herkennen. Maar het wachtwoord moet je moet je wel veranderen!
+
+In het "de hele tijd" blok wordt het symbool van de vos gedurende 5 secnden op het led-display getoond, zodat de jager weet dat het de vos. Tevens wordt het wachtwoord uitgezonden, dat uiteindelijk op het led-display te lezen is.
+
+##### Multiple choice vragen
+
+Het doel van deze test is om te controleren of je het spel en de code goed begrijpt. De antwoorden staan in de bijlage.
+
+**Op welk kanaal wordt het bericht uitgezonden tijdens het starten van de micro:bit?**
+1. Kanaal 5
+2. Kanaal 7
+3. Kanaal 10
+
+**Wat betekent een sterkte van 7 voor het uitgezonden signaal?**
+1. Het signaal wordt niet uitgezonden
+2. Het signaal wordt zwak uitgezonden
+3. Het signaal wordt op maximale sterkte uitgezonden
+
+**Waarom moet het wachtwoord veranderd worden?**
+1. Om de jagers in de war te brengen
+2. Om te voorkomen dat de vos gevangen wordt
+3. Om de veiligheid van het spel te waarborgen
+
+**Hoe lang wordt het symbool van de vos op het led-display getoond?**
+1. 2 seconden
+2. 5 seconden
+3. 10 seconden
+
 ## Een jager maken
 
-Ook de jager is makkelijk te maken.
+In het spel moet de jager het wachtwoord van een vos weten om de vos te kunnen vangen. De jager ziet het wachtwoord op zijn scherm en zegt het dan tegen de vos.
+
+Maar nu gaan we iets nieuws leren: een **functie**! Een functie is een soort gereedschap in het programmeren waarmee je taken gemakkelijk kunt hergebruiken in een programma. Je kunt een grote taak opdelen in kleine stukjes code die elk een kleine taak doen. Wanneer je de functie gebruikt, doet het wat je vraagt en geeft het resultaat terug.
+
+
+Er komt wel iets nieuws om de hoek kijken, namelijk het gebruik van een functie. In programmeren is een functie als een gereedschap dat een specifieke taak kan doen en kan worden **hergebruikt** in een programma. Functies zijn handig omdat ze de grote klus opdelen in kleine stukjes code die elk een kleine taak doen. Als je de functie gebruikt, dan doet het de taak en geeft het resultaat terug aan het programma. Soms kan je de functie vertellen wat te doen door het te voorzien van gegevens (invoer), en soms geeft de functie gegevens terug (uitvoer). Functies maken het gemakkelijker om de code te begrijpen en te onderhouden. Het is een belangrijk onderdeel van programmeren omdat het helpt bij het schrijven van betere en efficiëntere programma's.
+
+We gaan een functie maken als je het wachtwoord van de vos via de radio ontvangt. We gaan een functie maken om te testen of het ook werkt als we op knop A drukken. We gebruiken hiervoor het hulpwachtwoord "rode sjaal". Maar ook om te testen of je code werkt.
+
+Een functie heeft een naam en argumenten: geen, één of meerdere. In ons geval is het argument het wachtwoord dat we van de vos ontvangen of als je de test doet.
+
+Om een functie te maken, moeten we deze stappen volgen:
+
+|Stap        | Actie      |
+|:---------- | :---------- |
+| 1 | Klik op "Geavanceerd" en dan op "Functies". ``\\``![fig_3_3](assets/fig_3_3.png) |
+| 2 | Klik op "Maak een functie...". ``\\``![fig_3_4](assets/fig_3_4.png) |
+| 3 | Typ "toon" in het witte vak naast "Functie". ``\\``![fig_3_5](assets/fig_3_5.png) |
+| 4 | Definieer het argument: klik op "tekst" en geef het de naam "waarde". ``\\``![fig_3_6](assets/fig_3_6.png) |
+| 5 | Druk op de knop "Klaar". |
+|| 
+
+Als we nu de code schrijven, moeten we het blok "aanroep toon" gebruiken uit de categorie "Functies". Zo wordt onze functie gebruikt in het programma.
 
 ![fig_3_2](assets/fig_3_2.png)
 
-## Samenvattig
+##### Bespreking van de code
+
+Tijdens het starten van de micro:bit wordt het kanaal op hetzelfde kanaal gezet als dat van de vos, namelijk kanaal 10. Ten behoeve van de test maken we ook een wachtwoord aan met de waarde "rode sjaal". Deze waarde wijkt dus af van het echte wachtwoord van de vos.
+
+Als op knop A wordt gedrukt moet het symbool van de vos verschijnen op het led-display gedurende 1 seconde. Daarna wordt het wachtwoord "rode sjaal" getoond. Hiermee testen we de applicatie.
+
+De functie "toon" wordt zowel in beide events gebrukt "wanneer de radio ontvangt" en "wanneer knop A wordt ingedrukt.
+
+##### Multiple choice vragen
+
+**Wat is een functie in programmeren?**
+1. Een gereedschap om de code te onderhouden
+2. Een kleine taak in een programma
+3. Een manier om taken te hergebruiken in een programma
+
+**Waarom zijn functies handig in programmeren?**
+1. Omdat ze grote klussen opdelen in kleine stukjes code
+2. Omdat ze code gemakkelijker maken om te begrijpen en onderhouden
+3. Beide antwoorden zijn correct
+
+**Wat zijn argumenten in een functie?**
+1. Namen die worden gegeven aan variabelen in een programma
+2. Kleine taken die de functie uitvoert
+3. Gegevens die de functie nodig heeft om zijn taak uit te voeren
+
+**Waarom wordt er een testwachtwoord gebruikt in de tekst?**
+1. Om het wachtwoord van de vos te vervangen
+2. Om te testen of de code werkt
+3. Om de radio-ontvangst te verbeteren
+
+**Wat gebeurt er als op knop A wordt gedrukt?**
+1. Het symbool van de vos verschijnt op het led-display
+2. Het wachtwoord van de vos wordt getoond op het scherm
+3. De micro:bit wordt uitgeschakeld
+
+**Welke functie wordt gebruikt in zowel "wanneer de radio ontvangt" als "wanneer knop A wordt ingedrukt"?**
+1. De functie "start"
+2. De functie "stop"
+3. De functie "toon"
+
+## Samenvatting
+
+In dit project wordt uitgelegd hoe je een spel genaamd "Vossenjacht" kunt maken met de Micro:bit, een kleine computer. Het spel bestaat uit één "vos" en verschillende "jagers" die de vos moeten vinden. De vos draagt een Micro:bit met een rode sjaal en zendt om de vijf seconden een kenmerkend signaal uit dat door de jagers wordt ontvangen. Het spel gebruikt radio-communicatie tussen de Micro:bits en je kunt de radiofuncties programmeren met behulp van de blokken in de categorie "Radio" op de Micro:bit. Dit spel kan met vrienden gespeeld worden en er worden instructies gegeven voor het maken van de "vos" en de "jagers" en het testen van het spel. Ook heb je geleerd hoe je zelf een functie maakt.

@@ -24,3 +24,29 @@
 ## 7 Things to Consider When Using the Raspberry Pi as a Server
 
 [7 Things to Consider When Using the Raspberry Pi as a Server](https://www.makeuseof.com/raspberry-pi-server-considerations/)
+
+## Les 3, antwoorden op de multiple choice vragen over de vos
+
+Op welk kanaal wordt het bericht uitgezonden tijdens het starten van de micro:bit?
+1. Kanaal 5
+2. Kanaal 7
+3. Kanaal 10
+Antwoord: 3. Kanaal 10
+
+Wat betekent een sterkte van 7 voor het uitgezonden signaal?
+1. Het signaal wordt niet uitgezonden
+2. Het signaal wordt zwak uitgezonden
+3. Het signaal wordt op maximale sterkte uitgezonden
+Antwoord: 3, Het signaal wordt op maximale sterkte uitgezonden
+
+Waarom moet het wachtwoord veranderd worden?
+1. Om de jagers in de war te brengen
+2. Om te voorkomen dat de vos gevangen wordt
+3. Om de veiligheid van het spel te waarborgen
+Antwoord: 3. Om de veiligheid van het spel te waarborgen
+
+Hoe lang wordt het symbool van de vos op het led-display getoond?
+1. 2 seconden
+2. 5 seconden
+3. 10 seconden
+Antwoord: 3. 5 seconden
