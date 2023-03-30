@@ -107,6 +107,8 @@ Als op knop A wordt gedrukt moet het symbool van de vos verschijnen op het led-d
 
 De functie "toon" wordt zowel in beide events gebrukt "wanneer de radio ontvangt" en "wanneer knop A wordt ingedrukt.
 
+Let wel op dat het wachtwoord van de vos ook wordt opgeslagen in de variabele "wachtwoord"! Dus zorg ervoor dat de vos uitstaat als je gaat testen.
+
 ##### Multiple choice vragen
 
 Het doel van deze test is om te controleren of je het spel en de code goed begrijpt. De antwoorden staan in de bijlage.
