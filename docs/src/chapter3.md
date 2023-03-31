@@ -86,7 +86,7 @@ In het spel moet de jager het wachtwoord van een vos weten om de vos te kunnen v
 
 Maar nu gaan we iets nieuws leren: een **functie**! Een functie is een soort gereedschap in het programmeren waarmee je taken gemakkelijk kunt hergebruiken in een programma. Je kunt een grote taak opdelen in kleine stukjes code die elk een kleine taak doen. Wanneer je de functie gebruikt, doet het wat je vraagt en geeft het resultaat terug.
 
-We gaan een functie maken als je het wachtwoord van de vos via de radio ontvangt. We gaan een functie maken om te testen of het ook werkt als we op knop A drukken. We gebruiken hiervoor het hulpwachtwoord "rode sjaal". Maar ook om te testen of je code werkt.
+We gaan een functie maken het wachtwoord toont, als je het van de vos via de radio ontvangt. We gaan de functie ook gebruiken om te testen of alles werkt als we op knop A drukken. We gebruiken hiervoor het hulpwachtwoord "test".
 
 Een functie heeft een naam en argumenten: geen, één of meerdere. In ons geval is het argument het wachtwoord dat we van de vos ontvangen of als je de test doet.
 
