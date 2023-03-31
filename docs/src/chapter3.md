@@ -38,6 +38,10 @@ Stap 2: een jager maken.
 
 Stap 3: het vossenspel testen.
 
+## Voorwaarden
+
+- Je hebt de vorige lessen van de Micro:bit cursus gevolgd.
+
 ## Stap 1 - de vos maken
 
 Je bent inmiddels zo gevorderd dat je dit diagram makkelijk kunt begrijpen. De vos zendt een wachtwoord uit waaraan hij of zij te herkennen is en dat de jager tegen de vos moet zeggen.
