@@ -19,11 +19,21 @@ Aan het eind van al deze sessie ben jij super trots op wat jij allemaal hebt gel
 
 ## Inleiding
 
-In deze cursus laat ik zien hoe je programma's kunt maken die draaien op een Micro:bit. 
+Toen ik me aanmeldde als mentor voor de [Coderdojo club](https://zen.coderdojo.com/dojos/nl/leusden-zuid/leusden-zet-techlab) van de wijkvereniging LeusdenZeT, was de micro:bit mijn eerste kennismaking met dit kleine bordje. Ik was vooral gefascineerd door het [MakeCode](https://makecode.microbit.org/) programma van Microsoft, waarmee je via een website programma's kunt maken voor de micro:bit. Op deze website staan ook veel voorbeelden van leuke projecten die je kunt maken.
 
-MicroPython is een computerprogramma dat ik gebruik voor de ESP's.
+Vanwege Corona en mijn leeftijd ben ik gestopt als mentor, maar ik wilde nog steeds graag helpen met het maken van online cursusmateriaal. Eerst heb ik ervaring opgedaan met de cursus [RASPIKIDS](https://www.appligate.nl/RASPIKIDS/stable/) en daarna vond ik het leuk om ook een cursus te maken voor de micro:bit. In deze cursus leer je hoe je programma's kunt maken die draaien op een micro:bit.
 
-Succes met de cursus,
+Wat deze cursus bijzonder maakt, is dat je programmeert met blokken. Dit betekent dat je de verschillende onderdelen van je programma in elkaar kunt klikken, zonder dat je veel programmeerkennis nodig hebt.
+
+De cursus bestaat uit drie delen:
+
+Level 1 is het eerste deel waar je kennismaakt met de micro:bit en stap voor stap leert hoe je een programma kunt maken.
+
+In level 2 leer je werken met sensoren, zoals de DHT22. Met deze sensor kun je bijvoorbeeld de temperatuur en luchtvochtigheid in je huis meten. Ook leer je hoe je een OLED display kunt aansturen. Ik heb ook een paar leuke opdrachten bedacht om nog meer ervaring op te doen met de micro:bit.
+
+In level 3 leer je programmeren met MicroPython. Python is een programmeertaal die heel populair is en door veel bedrijven wordt gebruikt om toepassingen te maken. Met MicroPython kun je programma's maken voor de allerkleinste computers, zoals de micro:bit en de ESP-01, ESP8266 en ESP32. Deze zijn heel goedkoop en kunnen via het internet met elkaar communiceren. Ik wil je graag leren hoe je een ESP-01 kunt koppelen aan een micro:bit en hoe je gegevens kunt ontvangen en versturen.
+
+Ik wens je veel succes met deze cursus!
 
 Rob Bontekoe
 
@@ -85,7 +95,3 @@ Stel je voor dat je een robot wilt maken die zichzelf kan bewegen en obstakels k
 MicroPython wordt vaak gebruikt in elektronische projecten waarbij een kleine computer, zoals een microcontroller, wordt gebruikt. Het is een handige manier om programma's te schrijven die efficiënt werken op een kleine computer en die gemakkelijk te begrijpen zijn.
 
 Tijdens de cursus gebruiken we het programma Thonny om MicroPython code te maken.
-
-```@raw html
-<img src="https://seeklogo.com/images/M/micropython-logo-6255D51390-seeklogo.com.png" alt="MicroPython logo" width="80">
-```
