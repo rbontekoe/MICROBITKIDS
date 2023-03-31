@@ -109,7 +109,7 @@ Als we nu de code schrijven, moeten we het blok "aanroep toon" gebruiken uit de 
 
 Tijdens het starten van de micro:bit wordt het kanaal op hetzelfde kanaal gezet als dat van de vos, namelijk kanaal 10. Ten behoeve van de test maken we ook een wachtwoord aan met de waarde "test". Deze waarde wijkt dus af van het echte wachtwoord van de vos.
 
-Als op knop A wordt gedrukt moet het symbool van de vos verschijnen op het led-display gedurende 1 seconde. Daarna wordt het wachtwoord "rode sjaal" getoond. Hiermee testen we de applicatie.
+Als op knop A wordt gedrukt moet het symbool van de vos verschijnen op het led-display gedurende 1 seconde. Daarna wordt het wachtwoord "test" getoond. Hiermee testen we de applicatie.
 
 De functie "toon" wordt zowel in beide events gebrukt "wanneer de radio ontvangt" en "wanneer knop A wordt ingedrukt.
 
