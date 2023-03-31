@@ -1,6 +1,6 @@
 # 3 Radio communicatie tussen Micro:bits
 
-*De Micro:bit kan goed informatie uitwisselen met andere Micro:bits. We gaan een spel maken dat vossenjacht heet. Eén persoon is de vos en alle andere kinderen gaan de vos zoeken. De vos heeft een rode sjaal en een Micro:bit om zijn nek. Op het scherm van de Micro:bit van de vos zie je om de 5 seconden een plaatje van een vos. De vos heeft zich verstopt en alle andere kinderen hebben ook een Micro:bit. Als ze dicht genoeg bij de vos komen, dan geeft de Micro:bit van de vos een teken dat je in de buurt bent.*
+*De Micro:bit is een klein apparaatje dat goed kan praten met andere Micro:bits. We gaan een leuk spel spelen dat 'Vossenjacht' heet! Eén iemand is de 'Vos' en de andere kinderen gaan hem/haar zoeken. De 'Vos' draagt een Micro:bit om zijn/haar nek en heeft ook iets anders aan waaraan je hem/haar kan herkennen. Op het scherm van de Micro:bit van de 'Vos' verschijnt om de 5 seconden een plaatje van een vos. De 'Vos' heeft zich verstopt en alle andere kinderen hebben ook een Micro:bit. Als de andere kinderen dichtbij de 'Vos' komen, dan stuurt de Micro:bit van de 'Vos' een wachtwoord met een beschrijving waaraan je hem/haar kan herkennen.*
 
 ### Inhoud
 
@@ -10,7 +10,7 @@ Pages = ["chapter3.md"]
 
 ## Inleiding
 
-Hey, ik ga je vertellen over een tof spel dat je kunt maken met je micro:bit. Het heet "Vossenjacht"! Eén van jullie zal de "vos" zijn en hij draagt een micro:bit om zijn nek. Je kunt de "vos" herkennen aan een bericht dat zijn of haar micro:bit uitzendt. (Een vrouwtjesvos noem je een moer, het mannetje is een rekel.)
+Hey, ik ga je meer vertellen over het toffe spel "Vossenjacht", dat je kunt maken met je micro:bit. Eén van jullie zal de "vos" zijn en hij draagt een micro:bit om zijn nek. Je kunt de "vos" herkennen aan een bericht dat zijn of haar micro:bit uitzendt.
 
 Het bericht wordt verstuurt via "radio communicatie" en je hebt er geen wifi voor nodig om het te gebruiken. De blokken om het te gebruiken staan in de categorie "Radio".
 
@@ -23,7 +23,9 @@ Het allerleukste is natuurlijk als je dit spel met al je vriendjes speelt. Nodig
 ## Wat je nodig hebt
 
 - [BBC Micro:bit – Go:Bundle V2](https://elektronicavoorjou.nl/product/bbc-microbit-gobundle-v2/).
-- Mico USB aan Standaard USB kabel (is onderdeel van de bovenvermelde kit).
+- Micro USB aan Standaard USB kabel (is onderdeel van de bovenvermelde kit).
+- [BBC Micro:bit](https://elektronicavoorjou.nl/product/microbit-v2/) voor elke jager. 
+- Extra [AAA batteij houder](https://elektronicavoorjou.nl/product/microbit-batterijhouder-2xaaa-jst-ph/) en twee AAA batterijen voor elke jager.
 - Laptop met een moderne browser (Chrome, Firefox, Safari) met een standaard USB aansluiting.
 
 De [Coderdojo club van LeusdeZet in Leusden](https://www.leusdenzet.nl/events-category/coderdojo/) heeft voldoende micro:bits om het spel mee te spelen.
@@ -36,7 +38,7 @@ Stap 2: een jager maken.
 
 Stap 3: het vossenspel testen.
 
-## Stap 1 - De vos maken
+## Stap 1 - de vos maken
 
 Je bent inmiddels zo gevorderd dat je dit diagram makkelijk kunt begrijpen. De vos zendt een wachtwoord uit waaraan hij of zij te herkennen is en dat de jager tegen de vos moet zeggen.
 
@@ -50,7 +52,7 @@ Tevens wordt het wachtwoord gezet op "rode sjaal". Hieraan is de vos te herkenne
 
 In het "de hele tijd" blok wordt het symbool van de vos gedurende 5 secnden op het led-display getoond, zodat de jager weet dat het de vos. Tevens wordt het wachtwoord uitgezonden, dat uiteindelijk op het led-display te lezen is.
 
-##### Multiple choice vragen
+##### Test je kennis
 
 Het doel van deze test is om te controleren of je het spel en de code goed begrijpt. De antwoorden staan in de bijlage.
 
@@ -109,7 +111,7 @@ De functie "toon" wordt zowel in beide events gebrukt "wanneer de radio ontvangt
 
 Let wel op dat het wachtwoord van de vos ook wordt opgeslagen in de variabele "wachtwoord"! Dus zorg ervoor dat de vos uitstaat als je gaat testen.
 
-##### Multiple choice vragen
+##### Test je kennis
 
 Het doel van deze test is om te controleren of je het spel en de code goed begrijpt. De antwoorden staan in de bijlage.
 
@@ -136,7 +138,7 @@ Het doel van deze test is om te controleren of je het spel en de code goed begri
 **Wat gebeurt er als op knop A wordt gedrukt?**
 1. Het symbool van de vos verschijnt op het led-display
 2. Het wachtwoord van de vos wordt getoond op het scherm
-3. De micro:bit wordt uitgeschakeld
+3. Beide antwoorden zijn correct
 
 **Welke functie wordt gebruikt in zowel "wanneer de radio ontvangt" als "wanneer knop A wordt ingedrukt"?**
 1. De functie "start"

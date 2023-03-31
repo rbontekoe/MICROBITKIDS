@@ -81,8 +81,8 @@ Antwoord: 2. Om te testen of de code werkt
 **Wat gebeurt er als op knop A wordt gedrukt?**
 1. Het symbool van de vos verschijnt op het led-display
 2. Het wachtwoord van de vos wordt getoond op het scherm
-3. De micro:bit wordt uitgeschakeld
-Antwoord: 1. Het symbool van de vos verschijnt op het led-display
+3. Beide antwoorden zijn correct
+Antwoord: 3. Beide antwoorden zijn correct
 
 **Welke functie wordt gebruikt in zowel "wanneer de radio ontvangt" als "wanneer knop A wordt ingedrukt"?**
 1. De functie "start"

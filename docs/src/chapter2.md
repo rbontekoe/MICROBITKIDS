@@ -23,7 +23,7 @@ Dus daar heb je het, een korte introductie tot programmeren met de Micro:bit. Me
 ## Wat heb je nodig
 
 - [BBC Micro:bit – Go:Bundle V2](https://elektronicavoorjou.nl/product/bbc-microbit-gobundle-v2/).
-- Mico USB aan Standaard USB kabel (is onderdeel van de bovenvermelde kit).
+- Micro USB aan Standaard USB kabel (is onderdeel van de bovenvermelde kit).
 - Laptop met een moderne browser (Chrome, Firefox, Safari) met een standaard USB aansluiting.
 
 ## Wat ga je doen
