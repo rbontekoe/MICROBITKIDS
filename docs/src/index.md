@@ -6,13 +6,15 @@ Op een dag hoorde jij van een spannend evenement genaamd Coderdojo, dat maandeli
 
 Jij bent meteen enthousiast en besluit om je in te schrijven voor de volgende sessie. Op de dag zelf ga je vol verwachting naar het evenement en ontmoet je de andere kinderen en de begeleiders.
 
-De sessie begint met een korte introductie en dan mag jij meteen aan de slag! De eerste opdracht is om een programma te schrijven voor een kloppend hart. Met de Micro:bit leer jij hoe je de LED-lampjes kunt gebruiken om het kloppen van een hart te simuleren. Het ziet er zo cool uit!
+De sessie begint met een korte introductie en dan mag jij meteen aan de slag! De eerste opdracht is om een programma te schrijven om je naam op het led-display van de micro:bit te laten zien. Het ziet er cool uit!
 
-De maand daarop ga jij verder met de volgende uitdaging: het spel vossenjacht. Je neemt een goede kennis mee. Met behulp van de Micro:bit leer jij hoe je communiceert met een ander Micro:bit.
+De maand daarop begin je aan de tweede les. De opdracht is om een programma te schrijven voor een kloppend hart. Je leert hoe je de LED-lampjes kunt gebruiken om het kloppen van een hart te simuleren. Je begint al een beetje een pro te worden.
 
-Maanden later leer je hoe je de Micro:bit met een ESP-01 kunt koppelen aan een wifi-netwerk. Met deze module leer jij hoe je een apparaat kunt e-mail stuurt als iemand te dichtbij je voordeur komt.
+De maand daarop ga jij verder met de volgende uitdaging: het spel vossenjacht. Je neemt een goede kennis mee. Met behulp van les 3 leer jij hoe je communiceert met een ander Micro:bit.
 
-Aan het eind van al deze sessie ben jij super trots op wat jij allemaal hebt geleerd en gemaakt. Je kunt niet wachten om de volgende sessie bij te wonen en te zien wat voor coole projecten jij dan weer kunt maken!
+Aan het eind van elke deze sessie ben jij super trots op wat jij allemaal hebt geleerd en gemaakt. Je kunt niet wachten om de volgende sessie bij te wonen en te zien wat voor coole projecten jij dan weer kunt maken!
+
+Maanden later leer je hoe je de Micro:bit met een ESP-01 kunt koppelen aan een wifi-netwerk. Met deze module leer jij hoe je een e-mail stuurt als iemand te dichtbij je voordeur komt.
 
 !!! info
     Kijk in de Blog voor de laatste opmerkingen!
