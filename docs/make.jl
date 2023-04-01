@@ -9,7 +9,7 @@ makedocs(
         "Blog" => "blog.md",
         "Level 1 - Introductie" => [
             "1 Kennismaken met de Micro:bit" => "chapter1.md",
-            "2 Variabelen, lussen en if...then gebruiken" => "chapter2.md",
+            "2 Variabelen, lussen en als...dan gebruiken" => "chapter2.md",
             "3 Radio communicatie tussen Micro:bits" => "chapter3.md"
         ],
         "Level 2 - Sensoren" => [
