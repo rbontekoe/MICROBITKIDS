@@ -130,12 +130,12 @@ We zijn bijna klaar. We moeten nog "een als...dan" blok maken voor de lichtjes m
 
 |Stap        | Actie      |
 |:---------- | :---------- |
-| 1 | Sleep de lampjes uit het "de hele tijd" blok. ``\\``![fig_1_16](assets/fig_2_16.png)
+| 1 | Sleep de lampjes uit het "de hele tijd" blok. Pak het vast bij het bovenste "toon lichtjes" blok. ``\\``![fig_1_16](assets/fig_2_16.png)
 | 2 | Sleep een "als...dan" blok uit de categorie "Logisch" in het "de hele tijd" blok. ``\\``![fig_2_17](assets/fig_2_17.png) |
-| 3 | Stel de conditie op: 'als iskloppend gelijk is aan 1'. Sleep het blok "0 = 0" uit "Logisch" naar je werblad. ``\\``![fig_2_18](assets/fig_2_18.png) |
+| 3 | Sleep het blok "0 = 0" uit "Logisch" naar je werblad. ``\\``![fig_2_18](assets/fig_2_18.png) |
 | 4 | Klik op de categorie "Variabelen" en sleep de variabele "iskloppend" naar de conditie. Verbind de twee rode stippen met elkaar. ``\\``![fig_2_19](assets/fig_2_19.png) |
 | 5 | Stel de waarde in op "1". ``\\``![fig_2_20](assets/fig_2_20.png) |
-| 6 | Sleep de condie naar het "als...dan" blok. ``\\``![fig_2_21](assets/fig_2_21.png) |
+| 6 | Sleep de conditie naar het "als...dan" blok. Je hebt de conditie voor het als...dan blok ingesteld: 'als iskloppend gelijk is aan 1'. ``\\``![fig_2_21](assets/fig_2_21.png) |
 | 7 | Sleep de lampjes binnen het "als...dan" blok. |
 | 8 | Sleep de variabele "snelheid" naar het "pauzeer (ms)" blok. Maak een kopie van het blok en zet dat onder het laatste "toon lichtjes" blok. ``\\``![fig_2_22](assets/fig_2_22.png) |
 ||
@@ -179,3 +179,10 @@ Zoals je op het plaatje ziet is de A + B toets een aparte toets op de simulator.
 In deze les leer je de basisconcepten van programmeren, namelijk variabelen, lussen en als...dan verklaringen, en hoe je ze kunt gebruiken met de Micro:bit. Variabelen zijn stukjes informatie die we kunnen opslaan en later weer kunnen ophalen. Lussen zijn herhalingsprocessen die een stukje code meerdere keren uitvoeren. Als...dan verklaringen helpen ons beslissingen te nemen in ons programma. Je hebt een Micro:bit, een USB-kabel en een laptop nodig de les te volgen. Je gaat een kloppend hart maken dat je kunt laten knipperen of stoppen met de knoppen op de Micro:bit.
 
 Op de homepagina van [MakeCode](https://makecode.microbit.org/) staan allerlei cursussen die je kunt volgen!
+
+Je kunt ook het 'kloppend-hart' importeren vanuit je MakeCode homepagina met https://github.com/rbontekoe/kloppend-hart
+- open https://makecode.microbit.org/
+- klik op Importeren en klik vervolgens op Importeer URL
+- plak https://github.com/rbontekoe/kloppend-hart en klik op importeren
+
+![fig_2_24](assets/fig_2_24.png) ``\\``*Toets importeren op de MakeCode homepagina onder de banner rechts*
