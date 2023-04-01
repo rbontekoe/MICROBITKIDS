@@ -126,16 +126,16 @@ Het hart moet gaan kloppen, dat betekent dat we aan de computer moeten vertellen
 
 ## Stap 5 - Bedenk wat de computer steeds moet blijven doen
 
-We zijn bijna klaar. We moeten nog "een als...dan" blok maken voor de lichtjes met de conditie dat het hart moet gaan kloppen als op toets A wordt gedrukt.
+We zijn bijna klaar. We moeten nog een "als...dan" blok maken voor de lichtjes met een vergelijking dat het hart moet gaan kloppen als op toets A wordt gedrukt.
 
 |Stap        | Actie      |
 |:---------- | :---------- |
 | 1 | Sleep de lampjes uit het "de hele tijd" blok. Pak het vast bij het bovenste "toon lichtjes" blok. ``\\``![fig_1_16](assets/fig_2_16.png)
 | 2 | Sleep een "als...dan" blok uit de categorie "Logisch" in het "de hele tijd" blok. ``\\``![fig_2_17](assets/fig_2_17.png) |
 | 3 | Sleep het blok "0 = 0" uit "Logisch" naar je werblad. ``\\``![fig_2_18](assets/fig_2_18.png) |
-| 4 | Klik op de categorie "Variabelen" en sleep de variabele "iskloppend" naar de conditie. Verbind de twee rode stippen met elkaar. ``\\``![fig_2_19](assets/fig_2_19.png) |
+| 4 | Klik op de categorie "Variabelen" en sleep de variabele "iskloppend" naar een vergelijking. Verbind de twee rode stippen met elkaar. ``\\``![fig_2_19](assets/fig_2_19.png) |
 | 5 | Stel de waarde in op "1". ``\\``![fig_2_20](assets/fig_2_20.png) |
-| 6 | Sleep de conditie naar het "als...dan" blok. Je hebt de conditie voor het als...dan blok ingesteld: 'als iskloppend gelijk is aan 1'. ``\\``![fig_2_21](assets/fig_2_21.png) |
+| 6 | Sleep de vergelijking naar het "als...dan" blok. Je hebt de vergelijking voor het als...dan blok ingesteld: 'als iskloppend gelijk is aan 1'. ``\\``![fig_2_21](assets/fig_2_21.png) |
 | 7 | Sleep de lampjes binnen het "als...dan" blok. |
 | 8 | Sleep de variabele "snelheid" naar het "pauzeer (ms)" blok. Maak een kopie van het blok en zet dat onder het laatste "toon lichtjes" blok. ``\\``![fig_2_22](assets/fig_2_22.png) |
 ||
@@ -180,7 +180,7 @@ In deze les leer je de basisconcepten van programmeren, namelijk variabelen, lus
 
 Op de homepagina van [MakeCode](https://makecode.microbit.org/) staan allerlei cursussen die je kunt volgen!
 
-Je kunt ook het 'kloppend-hart' importeren vanuit je MakeCode homepagina met https://github.com/rbontekoe/kloppend-hart
+Je kunt ook het 'kloppend-hart' importeren vanuit je MakeCode homepagina met https://github.com/rbontekoe/kloppend-hart:
 - open https://makecode.microbit.org/
 - klik op Importeren en klik vervolgens op Importeer URL
 - plak https://github.com/rbontekoe/kloppend-hart en klik op importeren
