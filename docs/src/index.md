@@ -40,7 +40,7 @@ Ik wens je veel succes met deze cursus!
 Rob Bontekoe
 
 !!! info
-    Op deze cursus is de MIT licence van toepassing:
+    Op deze cursus is de MIT licentie van toepassing:
 
     De MIT-licentie is een soort regel die zegt dat mensen het mogen gebruiken, kopiëren, wijzigen en delen van een bepaald programma op hun computer of andere apparaat, zolang ze de maker ervan duidelijk vermelden en het programma niet verkopen zonder toestemming. Dit is een handige manier om ervoor te zorgen dat mensen het programma kunnen gebruiken om te leren of om er dingen mee te maken, zonder dat ze daar geld voor hoeven te betalen.
 
