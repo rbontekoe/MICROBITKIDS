@@ -44,6 +44,10 @@ Stap 5: Bedenk wat de computer steeds moet blijven doen.
 
 Stap 6: Testen in de simulator.
 
+## Voorwaarden
+
+Je hebt les 1 van deze Micro:bit cursus gevolgd.
+
 ## Stap 1 - Hoe een kloppend hart maken?
 
 We maken een koppend hart door steeds afwisselend de Led-lampjes aan te zetten en dan weer uit te zetten:
@@ -175,8 +179,12 @@ Zoals je op het plaatje ziet is de A + B toets een aparte toets op de simulator.
 2. Sleep de code naar je Micro:bit.
 3. Test dezelfde functies als in de simulator.
 
+Als je niet meer weet hoe je dat moet doen kijk dan naar:
+- [Les 1 - Stap-4-Code-op-je-laptop-bewaren](../chapter1/index.html#Stap-4-Code-op-je-laptop-bewaren)
+- [Les 1 - Stap-5-Code-naar-de-Micro:bit-overzetten](../chapter1/index.html#Stap-5-Code-naar-de-Micro:bit-overzetten)
+
 ## Samenvatting
-In deze les leer je de basisconcepten van programmeren, namelijk variabelen, lussen en als...dan verklaringen, en hoe je ze kunt gebruiken met de Micro:bit. Variabelen zijn stukjes informatie die we kunnen opslaan en later weer kunnen ophalen. Lussen zijn herhalingsprocessen die een stukje code meerdere keren uitvoeren. Als...dan verklaringen helpen ons beslissingen te nemen in ons programma. Je hebt een Micro:bit, een USB-kabel en een laptop nodig de les te volgen. Je gaat een kloppend hart maken dat je kunt laten knipperen of stoppen met de knoppen op de Micro:bit.
+In deze les leer je de basisconcepten van programmeren, namelijk variabelen, lussen en als...dan verklaringen, en hoe je ze kunt gebruiken met de Micro:bit. Variabelen zijn stukjes informatie die we kunnen opslaan en later weer kunnen ophalen. Lussen zijn herhalingsprocessen die een stukje code meerdere keren uitvoeren. Als...dan verklaringen helpen ons beslissingen te nemen in ons programma. Je hebt een Micro:bit, een USB-kabel en een laptop nodig de les te volgen.
 
 Op de homepagina van [MakeCode](https://makecode.microbit.org/) staan allerlei cursussen die je kunt volgen!
 

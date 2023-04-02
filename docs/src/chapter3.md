@@ -40,7 +40,7 @@ Stap 3: het vossenspel testen.
 
 ## Voorwaarden
 
-- Je hebt de vorige lessen van de Micro:bit cursus gevolgd.
+- Je hebt les 1 en 2 van deze Micro:bit cursus gevolgd.
 
 ## Stap 1 - de vos maken
 

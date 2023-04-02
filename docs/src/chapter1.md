@@ -80,7 +80,7 @@ Elke laptop is anders, dus de stappen die je moet volgen zijn ook anders. Ik ga 
 
 |Stap        | Actie       |
 |:---------- | :---------- |
-| 1 | Klik links onderin op de toets "Download". ``\\``![fig_1_16](assets/fig_1_16.png) |
+| 1 | Klik links onderin op de toets "Downloaden". ``\\``![fig_1_16](assets/fig_1_16.png) |
 | 2 | Klik links op de folder "Downloads". ``\\``![fig_1_17](assets/fig_1_17.png) |
 | 3 | Maak een nieuw mapje genaamd "Micro:bit" in de map Downloads. ``\\``![fig_1_12](assets/fig_1_12.png) |
 | 4 | Druk op de knop die "Create" heet. Het kan zijn dat deze knop op jouw computer een andere naam heeft! |
