@@ -76,13 +76,15 @@ Knopjes onder de Micro:bit:
 
 ## Stap 4 - Code op je laptop bewaren
 
-Elke laptop is anders, dus de stappen die je moet volgen zijn ook anders. Ik ga je laten zien hoe het op mijn laptop moet.
+Elke laptop is anders, dus de stappen die je moet volgen zijn ook anders. Ik ga je laten zien hoe het op mijn laptop moet. Op mijn computer heb ik Ubuntu 22.04 draaien.
 
 |Stap        | Actie       |
 |:---------- | :---------- |
-| 1 | Maak een nieuw mapje genaamd "Micro:bit" in de map Downloads. ``\\``![fig_1_12](assets/fig_1_12.png) |
-| 2 | Druk op de knop die "Create" heet. Het kan zijn dat deze knop op jouw computer een andere naam heeft! |
-| 3 | Klik op de knop "Save" om het bestand "microbit-Mijn-naam.hex" te bewaren. ``\\``![fig_1_13](assets/fig_1_13.png)
+| 1 | Klik links onderin op de toets "Download". ``\\``![fig_1_16](assets/fig_1_16.png) |
+| 2 | Klik links op de folder "Downloads". ``\\``![fig_1_17](assets/fig_1_17.png) |
+| 3 | Maak een nieuw mapje genaamd "Micro:bit" in de map Downloads. ``\\``![fig_1_12](assets/fig_1_12.png) |
+| 4 | Druk op de knop die "Create" heet. Het kan zijn dat deze knop op jouw computer een andere naam heeft! |
+| 5 | Klik op de knop "Save" om het bestand "microbit-Mijn-naam.hex" te bewaren. ``\\``![fig_1_13](assets/fig_1_13.png)
 ||
 
 ## Stap 5 - Code naar de Micro:bit overzetten
