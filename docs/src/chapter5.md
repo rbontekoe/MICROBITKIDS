@@ -10,6 +10,10 @@ Pages = ["chapter7.md"]
 
 ## Wat je nodig hebt
 
+## Voorwaarden
+
+- Ervaring met de online makecode voor de micro:bit.
+
 ## Wat je gaat doen
 
 ## Samenvatting
