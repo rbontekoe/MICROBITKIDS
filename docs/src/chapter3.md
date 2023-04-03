@@ -1,6 +1,6 @@
 # 3 Radio communicatie tussen Micro:bits
 
-*De Micro:bit is een klein apparaatje dat goed kan praten met andere Micro:bits. We gaan een leuk spel spelen dat 'Vossenjacht' heet! Eén iemand is de 'Vos' en de andere kinderen gaan hem/haar zoeken. De 'Vos' draagt een Micro:bit om zijn/haar nek en heeft ook iets anders aan waaraan je hem/haar kan herkennen. Op het scherm van de Micro:bit van de 'Vos' verschijnt om de 5 seconden een plaatje van een vos. De 'Vos' heeft zich verstopt en alle andere kinderen hebben ook een Micro:bit. Als de andere kinderen dichtbij de 'Vos' komen, dan stuurt de Micro:bit van de 'Vos' een wachtwoord met een beschrijving waaraan je hem/haar kan herkennen.*
+*De Micro:bit is een klein apparaatje dat goed kan praten met andere Micro:bits. We gaan een leuk spel spelen dat 'Vossenjacht' heet! Eén iemand is de 'vos' en de andere kinderen gaan hem/haar zoeken. De 'vos' draagt een Micro:bit om zijn/haar nek en heeft ook iets anders aan waaraan je hem/haar kan herkennen. Op het scherm van de Micro:bit van de 'vos' verschijnt om de 5 seconden een plaatje van een vos. De 'vos' heeft zich verstopt en alle andere kinderen hebben ook een Micro:bit. Als de andere kinderen dichtbij de 'vos' komen, dan stuurt de Micro:bit van de 'vos' een wachtwoord met een beschrijving waaraan je hem/haar kan herkennen.*
 
 ### Inhoud
 
@@ -159,4 +159,4 @@ Test het vossenspel.
 
 ## Samenvatting
 
-In dit project wordt uitgelegd hoe je een spel genaamd "Vossenjacht" kunt maken met de Micro:bit, een kleine computer. Het spel bestaat uit één "vos" en verschillende "jagers" die de vos moeten vinden. De vos draagt een Micro:bit met een rode sjaal en zendt om de vijf seconden een kenmerkend signaal uit dat door de jagers wordt ontvangen. Het spel gebruikt radio-communicatie tussen de Micro:bits en je kunt de radiofuncties programmeren met behulp van de blokken in de categorie "Radio" op de Micro:bit. Dit spel kan met vrienden gespeeld worden en er worden instructies gegeven voor het maken van de "vos" en de "jagers" en het testen van het spel. Ook heb je geleerd hoe je zelf een functie maakt.
+In dit project wordt uitgelegd hoe je een spel genaamd "Vossenjacht" kunt maken met de Micro:bit. Het spel bestaat uit één "vos" en verschillende "jagers" die de vos moeten vinden. De vos draagt een Micro:bit om zijn/haar nek die om de vijf seconden een kenmerkend signaal uitzendt dat door de jagers wordt ontvangen. Het spel gebruikt radio-communicatie tussen de Micro:bits en je kunt de radiofuncties programmeren met behulp van de blokken in de categorie "Radio" op de Micro:bit.

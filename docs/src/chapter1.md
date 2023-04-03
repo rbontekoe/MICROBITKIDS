@@ -28,6 +28,8 @@ Stap 5: Code naar de Micro:bit overzetten.
 
 Stap 6: Micro:bit gebruikershandleiding.
 
+Stap 7: Een overtollig blok weghalen.
+
 ## Stap 1 - Micro:bit aansluiten op je laptop
 
 1. Pak de USB-kabel die bij de Micro:bit hoort. Het heeft aan het ene uiteinde een Micro-USB-aansluiting en aan het andere uiteinde een standaard USB-aansluiting. ``\\``![fig_1_1](assets/fig_1_1.png)
@@ -104,6 +106,12 @@ Elke laptop is anders, dus de stappen die je moet volgen zijn ook anders. Ik ga 
 ## Stap 6 - Micro:bit gebruikershandleiding
 
 De gebruikerhandleiding van de [micro:bit](https://microbit.org/nl/get-started/user-guide/overview/).
+
+## Stap 7 - Een overtollig blok weghalen
+
+Soms heb je een blok op je werkblad wat je niet meer nodig hebt. Je kan het op twee manieren weghalen:
+1. Je klikt op het stukje en drukt op de "Delete" knop op je toetsenbord.
+2. Je sleept het blokje naar de kolom waar het menu staat. De achtergrond wordt dan rood en je ziet een prullebak. Laat het blokje dan los.
 
 #### Opdracht
 

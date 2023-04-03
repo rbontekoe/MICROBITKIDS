@@ -1,7 +1,8 @@
 using Documenter
 
 makedocs(
-    sitename = "MICROBITKIDS",
+
+sitename = "MICROBITKIDS",
 
     format = Documenter.HTML(),
 

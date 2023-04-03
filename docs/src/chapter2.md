@@ -94,11 +94,11 @@ Wanneer je een computerprogramma maakt, wil je misschien beginnen met het instel
 | 1 | Klik op de knop "Maak een variabele" in de categorie "Variabelen". ``\\``![fig_2_5](assets/fig_2_5.png) |
 | 2 | Typ "iskloppend". ``\\``![fig_2_6](assets/fig_2_6.png) |
 | 3 | Druk op de knop "OK". ``\\``![fig_2_7](assets/fig_2_7.png) |
-| 4 | Sleep "stel iskloppend in op 0" naar het blok "bij opstarten. ``\\``![fig_2_8](assets/fig_2_8.png) |
+| 4 | Sleep "stel iskloppend in op 0" naar het blok "bij opstarten". ``\\``![fig_2_8](assets/fig_2_8.png) |
 | 5 | Klik op de knop "Maak een variabele" in de categorie "Variabelen". |
 | 6 | Typ "snelheid". |
 | 7 | Druk op de knop "OK". |
-| 8 | Sleep "stel snelheid in op 0" naar het blok "bij opstarten. ``\\``![fig_2_9](assets/fig_2_9.png) |
+| 8 | Sleep "stel snelheid in op 0" naar het blok "bij opstarten". ``\\``![fig_2_9](assets/fig_2_9.png) |
 
 ## Stap 4: Bedieningselementen instellen
 
@@ -193,4 +193,4 @@ Je kunt ook het 'kloppend-hart' importeren vanuit je MakeCode homepagina met htt
 - klik op Importeren en klik vervolgens op Importeer URL
 - plak https://github.com/rbontekoe/kloppend-hart en klik op importeren
 
-![fig_2_24](assets/fig_2_24.png) ``\\``*Toets importeren op de MakeCode homepagina onder de banner rechts*
+![fig_2_24](assets/fig_2_24.png) ``\\``*De toets 'Importeren' staat op de [MakeCode homepagina](https://makecode.microbit.org/) onder de banner rechts*
