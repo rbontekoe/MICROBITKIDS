@@ -24,7 +24,7 @@ Dit is een inleidende les voor de komende twee lessen. Je hebt geen dingen nodig
 
 ## Wat je gaat doen
 
-Lees het verhaal over de DHT11/DHT22
+Het verhaal over de DHT11/DHT22 lezen.
 
 ## DHT11/DHT22
 
