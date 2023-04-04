@@ -10,7 +10,7 @@
 ### Inhoud
 
 ```@contents
-Pages = ["chapter6.md"]
+Pages = ["chapter4.md"]
 ```
 ## Inleiding
 
@@ -36,9 +36,23 @@ Er zijn verschillende soorten sensoren, sommige hebben drie pinnen en anderen vi
 
 Om de sensor te gebruiken, moet je eerst een speciaal programma downloaden. Dit is een soort handleiding die de micro:bit (een kleine computer) helpt de sensor te begrijpen en te gebruiken.
 
-Als je het circuit (de sensoren en de micro:bit) gaat bouwen, gebruik je een breadboard en jumperkabels. Dit zijn soort draden waarmee je de verschillende onderdelen van het circuit aan elkaar koppelt.
+Als je het elektronisch circuit (de sensoren en de micro:bit) gaat bouwen, gebruik je een breadboard en jumperkabels. Dit zijn soort draden waarmee je de verschillende onderdelen van het circuit aan elkaar koppelt.
 
-![breadboard en jumperkabels](https://www.sossolutions.nl/media/catalog/product/cache/5df5c040ed8cd3972c59a8e190e44350/e/l/elecfreaks-kits-elecfreaks-starter-kit-for-bbc-micro-bit-with-11-experiments-micro-bit-not-included-2178755625021_x700.jpg) ``\\``ElecFreaks Micro:Bit Starter Kit van [sossulutions](https://www.sossolutions.nl/elecfreaks-starter-kit) met een breadboard ook extra sensoren. [Gebruikershandleiding](https://www.elecfreaks.com/blog/post/microbit-starter-kit-guide.html)
+## Hoe werkt een breadboard?
+
+![fig_1](assets/fig_4_1.png)
+
+Een [breadboard](https://nl.wikipedia.org/wiki/Breadboard)) werkt als een soort basis waarop je elektronische onderdelen kunt aansluiten en verbinden zonder dat je hoeft te solderen.
+
+De gaatjes in een kolom op een breadboard zijn met elkaar verbonden, behalve bij de spanningsrails aan de zijkanten van het breadboard.
+
+De spanningsrails zijn bedoeld om de stroomtoevoer naar de onderdelen te regelen. De rail met de rode streep is de positieve (+) voedingsrail en de rail met de blauwe streep is de negatieve (-) voedingsrail. Deze voedingsrails zijn horizontaal verbonden, zodat alle gaatjes in dezelfde rij zijn verbonden met dezelfde spanningsrail. Dit betekent dat als je een onderdeel aansluit op een gaatje in de positieve voedingsrail, alle andere gaatjes in dezelfde rij ook verbonden zijn met de positieve voedingsrail.
+
+Door de onderdelen in de rijen van gaatjes te plaatsen, kun je makkelijk verbindingen maken tussen de onderdelen zonder dat je extra draden nodig hebt. Als je bijvoorbeeld een lampje wilt laten branden met een batterij en een schakelaar, kun je de draden van de batterij, schakelaar en het lampje aansluiten op het breadboard en ze met elkaar verbinden door ze in dezelfde rij van gaatjes te steken. Hierbij is het belangrijk om ervoor te zorgen dat alle onderdelen die met elkaar verbonden moeten zijn, in dezelfde rij van gaatjes zijn geplaatst en dat de juiste voedingsrails worden gebruikt voor de stroomtoevoer.
+
+![breadboard en krokedillenbekkabels](https://elektronicavoorjou.nl/wp-content/uploads/2019/07/basic_kit_for_microbit_1.jpg) ``\\``Basis Kit voor BBC Micro:bit van [elektronicavoorjou.nl](https://elektronicavoorjou.nl/product/basis-kit-voor-bbc-microbit/) met een breadboard en extra sensoren.
+
+
 
 ## Samenvatting
 
