@@ -5,7 +5,7 @@
 ### Inhoud
 
 ```@contents
-Pages = ["chapter10.md"]
+Pages = ["chapter9.md"]
 ```
 
 ## Wat je nodig hebt

@@ -1,6 +1,6 @@
-# 5 Stuursoftware ophalen
+# 5 Temperatuur meten
 
-*Om sensoren of actuatoren iets te kunnen laten doen, moet je software downloaden waarmee je ze kunt aansturen.*
+*We gaan vandaag leren over een slim onderdeel dat de temperatuur en vochtigheid in een kamer kan meten. Het heet de DHT22 sensor en is heel handig! We gaan ook leren hoe we de computerprogramma's kunnen schrijven om de temperatuur te meten.*
 
 ### Inhoud
 
