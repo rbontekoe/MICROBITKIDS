@@ -24,7 +24,7 @@ Dit is een inleidende les voor de komende twee lessen. Je hebt geen dingen nodig
 
 ## Wat je gaat doen
 
-Het verhaal over de DHT11/DHT22 lezen.
+Het verhaal over de DHT11/DHT22, breadboard lezen.
 
 ## DHT11/DHT22
 
@@ -50,10 +50,25 @@ De spanningsrails zijn bedoeld om de stroomtoevoer naar de onderdelen te regelen
 
 Door de onderdelen in de rijen van gaatjes te plaatsen, kun je makkelijk verbindingen maken tussen de onderdelen zonder dat je extra draden nodig hebt. Als je bijvoorbeeld een lampje wilt laten branden met een batterij en een schakelaar, kun je de draden van de batterij, schakelaar en het lampje aansluiten op het breadboard en ze met elkaar verbinden door ze in dezelfde rij van gaatjes te steken. Hierbij is het belangrijk om ervoor te zorgen dat alle onderdelen die met elkaar verbonden moeten zijn, in dezelfde rij van gaatjes zijn geplaatst en dat de juiste voedingsrails worden gebruikt voor de stroomtoevoer.
 
-![breadboard en krokedillenbekkabels](https://elektronicavoorjou.nl/wp-content/uploads/2019/07/basic_kit_for_microbit_1.jpg) ``\\``Basis Kit voor BBC Micro:bit van [elektronicavoorjou.nl](https://elektronicavoorjou.nl/product/basis-kit-voor-bbc-microbit/) met een breadboard en extra sensoren.
+## Accessoires
 
+Er zijn diverse leveranciers van kits, sensoren en actuatoren voor de BBC micro:bit:
+- [Elektonica voor jou](https://elektronicavoorjou.nl/#%7B%22731234b1f9f9%22%3A%7B%22search_term%22%3A%22micro%3Abit%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A12%2C%22product%22%3A84%7D%2C%22y_pos%22%3A0%7D%7D)
+- [Kiwi Electronics](https://www.kiwi-electronics.com/nl/bbc-microbit-boards-bundels-accessoires-276?page=3)
+- [SOS solutions](https://www.sossolutions.nl/educatief/micro-bit?p=2)
+
+## Stuursoftware
+
+Als je wil weten of er speciale computersoftware is voor een apparaat dat iets meet of beweegt, dan kan je op deze website kijken:
+- Uitbreidingen pagina voor [MakeCode](https://makecode.microbit.org/extensions)
+
+Als je klikt op "Individual Sensoren", dan zie je dit plaatje ertussen staan: ``\\``![DHT11/DHT22](assets/fig_4_2.png)
+
+Als je op zo'n plaatje klikt, krijg je er extra uitleg over.
 
 
 ## Samenvatting
 
-Als je werkt met de micro:bit, heb je sensoren nodig om informatie te krijgen en actuatoren om dingen te laten bewegen. Sensoren meten dingen zoals de temperatuur en luchtvochtigheid. De DHT22 is een sensor die de temperatuur en luchtvochtigheid meet. Om deze te gebruiken, heb je een speciaal programma nodig en moet je de sensor aansluiten op een breadboard met jumperkabels. De DHT22 meet tussen -40 en +80 graden Celsius en er zijn verschillende soorten sensoren beschikbaar.
+Als je werkt met de micro:bit, heb je sensoren nodig om informatie te krijgen en actuatoren om dingen te laten bewegen. Sensoren meten dingen zoals de temperatuur en luchtvochtigheid. De DHT22 is een sensor die de temperatuur en luchtvochtigheid meet. Om deze te gebruiken, heb je een speciaal programma nodig en moet je de sensor aansluiten op een breadboard met jumperkabels. 
+
+Een breadboard is een basis waarop je elektronische onderdelen kunt aansluiten en verbinden zonder te hoeven solderen. De gaatjes in de kolommen op het breadboard zijn met elkaar verbonden, behalve bij de spanningsrails aan de bovenkant en onderkant van het breadboard. De spanningsrails zijn bedoeld om de stroomtoevoer naar de onderdelen te regelen. De rail met de rode streep is de positieve (+) voedingsrail en de rail met de blauwe streep is de negatieve (-) voedingsrail.
