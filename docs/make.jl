@@ -18,7 +18,7 @@ sitename = "MICROBITKIDS",
         "Level 2 - Sensoren" => [
             "4 Soorten sensoren" => "chapter4.md",
             "5 Temperatuur meten" => "chapter5.md",
-            "6 Meerdere gegevens uitwisselen met een andere micro:bit" => "chapter6.md"
+            "6 Gegevens uitwisselen tussen micro:bits" => "chapter6.md"
         ],
         "Level 3 - MicroPython" => [
             "7 Introductie MicroPython" => "chapter7.md",

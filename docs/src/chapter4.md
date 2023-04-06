@@ -24,7 +24,7 @@ Dit is een inleidende les voor de komende twee lessen. Je hebt geen dingen nodig
 
 ## Wat je gaat doen
 
-Het verhaal over de DHT11/DHT22, breadboard lezen.
+Het verhaal over de DHT11/DHT22 en het breadboard lezen.
 
 ## DHT11/DHT22
 
@@ -50,9 +50,9 @@ De spanningsrails zijn bedoeld om de stroomtoevoer naar de onderdelen te regelen
 
 Door de onderdelen in de rijen van gaatjes te plaatsen, kun je makkelijk verbindingen maken tussen de onderdelen zonder dat je extra draden nodig hebt. Als je bijvoorbeeld een lampje wilt laten branden met een batterij en een schakelaar, kun je de draden van de batterij, schakelaar en het lampje aansluiten op het breadboard en ze met elkaar verbinden door ze in dezelfde rij van gaatjes te steken. Hierbij is het belangrijk om ervoor te zorgen dat alle onderdelen die met elkaar verbonden moeten zijn, in dezelfde rij van gaatjes zijn geplaatst en dat de juiste voedingsrails worden gebruikt voor de stroomtoevoer.
 
-## Accessoires
+## Leveranciers van benodigheden voor de micro:bit
 
-Er zijn diverse leveranciers van kits, sensoren en actuatoren voor de BBC micro:bit:
+Er zijn diverse leveranciers van kits, sensoren en actuatoren voor de BBC micro:bit, onder anderen:
 - [Elektonica voor jou](https://elektronicavoorjou.nl/#%7B%22731234b1f9f9%22%3A%7B%22search_term%22%3A%22micro%3Abit%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A12%2C%22product%22%3A84%7D%2C%22y_pos%22%3A0%7D%7D)
 - [Kiwi Electronics](https://www.kiwi-electronics.com/nl/bbc-microbit-boards-bundels-accessoires-276?page=3)
 - [SOS solutions](https://www.sossolutions.nl/educatief/micro-bit?p=2)

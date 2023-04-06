@@ -1,4 +1,4 @@
-# 6 Meerdere gegevens uitwisselen met een andere micro:bit
+# 6 Gegevens uitwisselen tussen micro:bits
 
 *Een DHT22 meet de temperatuur en de luchtvochtigheid. Hoe stuur je deze twee gegevens in een keer naar een ander micro:bit? Dat leer je in deze les.*
 
