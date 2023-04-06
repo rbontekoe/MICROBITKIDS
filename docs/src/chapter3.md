@@ -1,4 +1,4 @@
-# 3 Radio communicatie tussen Micro:bits
+# 3. Radio communicatie tussen Micro:bits
 
 *De Micro:bit is een klein apparaatje dat goed kan praten met andere Micro:bits. We gaan een leuk spel spelen dat 'Vossenjacht' heet! Eén iemand is de 'vos' en de andere kinderen gaan hem/haar zoeken. De 'vos' draagt een Micro:bit om zijn/haar nek en heeft ook iets anders aan waaraan je hem/haar kan herkennen. Op het scherm van de Micro:bit van de 'vos' verschijnt om de 5 seconden een plaatje van een vos. De 'vos' heeft zich verstopt en alle andere kinderen hebben ook een Micro:bit. Als de andere kinderen dichtbij de 'vos' komen, dan stuurt de Micro:bit van de 'vos' een wachtwoord met een beschrijving waaraan je hem/haar kan herkennen.*
 

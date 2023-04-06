@@ -1,4 +1,4 @@
-# 2 Variabelen, lussen en als...dan gebruiken
+# 2. Variabelen, lussen en als...dan gebruiken
 
 *In deze les leer je belangrijke dingen als je wilt programmeren.*
 
