@@ -48,7 +48,7 @@ De gaatjes in een kolom op een breadboard zijn met elkaar verbonden, behalve bij
 
 De elektronische onderdelen prik je in de gaten van het breadboard en koppel je met jumperkables. Er zijn drie soorten jumperkabels: een met aan beide kanten een vrouwtje, een met aan de ene kant een mannetje en aan de andere kant een vrouwtje, en een met aan beide kanten een mannetje. Een mannetje heeft een pinnetje, een vrouwtje heeft een gaatje. Zo kun je altijd de onderdelen met elkaar verbinden.
 
-Als je elektronische onderdelen wilt verbinden met de micro:bit, kun je hiervoor krokedillenklemmen gebruiken. ``\\``![krokedillenklemmen](assets/fig_4_4.png) ``\\``Onderdeel van de [Basis Kit voor BBC Micro:bit](https://elektronicavoorjou.nl/product/basis-kit-voor-bbc-microbit/), zie ook de [user guide](https://www.elecrow.com/download/Tutorial_for_microbit_basic_kit.pdf)
+Als je elektronische onderdelen wilt verbinden met de micro:bit, kun je hiervoor krokedillenklemmen gebruiken. ``\\``![krokedillenklemmen](assets/fig_4_4.png) ``\\``*Onderdeel van de [Basis Kit voor BBC Micro:bit](https://elektronicavoorjou.nl/product/basis-kit-voor-bbc-microbit/), zie ook de [user guide](https://www.elecrow.com/download/Tutorial_for_microbit_basic_kit.pdf)*
 
 Dit zijn kleine klemmetjes die je op de micro:bit kunt klemmen, zodat je verbinding kunt maken met de elektronische onderdelen. Het kan echter ook zijn dat je een breadboard hebt met een connector waarin de micro:bit past. In dat geval kun je de micro:bit op in de connector stoppen en de verbindingen maken met jumperkabels.
 
