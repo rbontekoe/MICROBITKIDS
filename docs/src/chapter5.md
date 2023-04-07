@@ -70,15 +70,71 @@ Maak de volgende twee variabelen en zet beiden in het blok "bij opstarten".
 - Toets A laat de temperatuur zien.
 - Totes B laat de luchtvochtigheid zien.
 
+![fig_5_6](assets/fig_5_6.png) ``\\``*Resultaat na "Bedieningselementen instellen"*
+
 ##### Bedenk wat de computer steeds moet blijven doen
 
-- Meten.
-- Temperatuur meten en opslaan.
-- Luchvochtigheid meten en opslaan.
-- Wacht 5 seconden.
+- Instellingenblok goed zetten.
+- Temperatuur meten en opslaan in de variabele temperatuur. De temperatuur meet je met het "Read humidity" blok. Kies voor "temperature" in plaats van "humidity". Plaats het in het "stel temperatuur in" blok.
+- Luchvochtigheid meten en opslaan in variabele luchtvochtigheid. De temperatuur meet je met het "Read humidity" blok.
+- Wacht 2 seconden.
+
+Ik heb gemerkt dat je het instellingenblok het beste in het "de hele tijd" blok kunt zetten. Het instellingblok stel je zo in:
+- Query: DHT22
+- Data pin: P0
+- Pin pull-up: waar
+- Serial output: onwaar
+- Wait 2 sec after query: waar
+
+![fig_5_7](assets/fig_5_7.png) ``\\``*Bedenk wat de computer steeds moet blijven doen*
+
+##### Diverse opmerkingen
+
+Onder de optie **…meer** in de categorie DHT11/DHT22 heb je het opdrachtblok  Temperature type: Celsius (*C) waarmee je de temperatuurweergave instelt op graden Celsius of Fahrenheit. Het is de standaard instelling, dat betekent dat als je deze opdracht weglaat de gemeten waarde altijd in graden Celsius is.
+
+Het instellingenblok gebruik je om een aantal zaken in te stellen:
+- *Query:* De sensor die je gebruikt, de DHT11 of de DHT22. De DHT11 heeft een bereik van 0 tot 50 graden Celsius, terwijl de DHT22 een bereik heeft van -40 to +80 °C. Bij ons staat het op de DHT22,
+- *Data pin:* op welk pin van de micro:bit de datadraad is aangesloten. Bij ons staat hij ingesteld op P0.
+- *Pin pull-up:* de 3-pinsuitvoering van de DHT11/DHT22 sensoren hebben een interne pull-downweerstand en kies je voor waar. Bij de v4-pinsuitvoeringen moet je een externe weerstand gebruiken van ongeveer 10KΩ en kies je voor onwaar. De weerstand zorgt ervoor dat de spanning op de datadraad in rust 0 Volt is dat overeenkomt met -40 °C voor de DHT22.
+- *Serial output:* of je gebruik wilt maken van seriële overdracht van de gegevens, bijvoorbeeld naar een ESP8266 module.
+- *Wait 2 sec after query:* voor de DHT22 stel je de wachttijd voor de meting in op minimaal 2 seconden.
 
 ## Stap 4 - Testen van de software
 
-Druk op toets A.
+Als je op de A-knop drukt, laat de micro:bit zien hoe warm het is en er staat ook een cijfer achter de punt Als je op de B-knop drukt, laat de micro:bit zien hoe vochtig de lucht is en er staat ook een cijfer achter de punt. Een punt in het engels is voor ons een komma! Je ziet dus de waarde op een decimaal nauwkeurig.
+
+## Test je kennis
+
+Wat meet de DHT22 sensor?
+1. Temperatuur en vochtigheid
+2. Luchtdruk en windsnelheid
+3. Lichtintensiteit en geluidsniveau
+
+Welke computerprogramma's leer je schrijven tijdens deze les?
+1. Tekstverwerkingsprogramma's
+2. Spelletjes
+3. Programma's om de temperatuur te meten
+
+Wat heb je nodig om de DHT22 sensor met de micro:bit te verbinden?
+1. Een breadboard met jumpers
+2. Een telefoon met een moderne browser
+3. Een toetsenbord en muis
+
+Welke actie moet je ondernemen in stap 2 van de les om de DHT22 stuursoftware te downloaden?
+1. Zoek naar "dht22" in de online makecode voor de micro:bit.
+2. Download de software van de website van de fabrikant.
+3. Vraag de leraar om de software op de computer te installeren.
+
+Wat gebeurt er als je op toets A drukt tijdens het uitvoeren van het programma?
+1. De luchtvochtigheid wordt getoond.
+2. De temperatuur wordt getoond.
+3. Het programma stopt met werken.
+
+Wat moet je doen om de luchtvochtigheid te meten en op te slaan in een variabele?
+1. Gebruik het "Read temperature" blok en sla het op in de variabele "luchtvochtigheid".
+2. Gebruik het "Read humidity" blok en sla het op in de variabele "luchtvochtigheid".
+3. Gebruik het "Wait" blok en sla het op in de variabele "luchtvochtigheid".
 
 ## Samenvatting
+
+We leren hoe we met de DHT22 sensor de temperatuur en vochtigheid in een kamer kunnen meten. We sluiten het aan op een BBC Micro:bit en met zelfgeschreven computerprogramma's lezen we de metingen uit. Om dit project uit te voeren, moeten we de DHT22 software downloaden en het blokdiagram opzetten. Daarna kunnen we de software testen en de temperatuur en vochtigheid meten.
