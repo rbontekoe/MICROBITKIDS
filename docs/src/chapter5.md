@@ -93,11 +93,11 @@ Ik heb gemerkt dat je het instellingenblok het beste in het "de hele tijd" blok 
 Onder de optie **…meer** in de categorie DHT11/DHT22 heb je het opdrachtblok  Temperature type: Celsius (*C) waarmee je de temperatuurweergave instelt op graden Celsius of Fahrenheit. Het is de standaard instelling, dat betekent dat als je deze opdracht weglaat de gemeten waarde altijd in graden Celsius is.
 
 Het instellingenblok gebruik je om een aantal zaken in te stellen:
-- *Query:* De sensor die je gebruikt, de DHT11 of de DHT22. De DHT11 heeft een bereik van 0 tot 50 graden Celsius, terwijl de DHT22 een bereik heeft van -40 to +80 °C. Bij ons staat het op de DHT22,
+- *Query:* de sensor die je gebruikt, de DHT11 of de DHT22. De DHT11 heeft een bereik van 0 tot 50 graden Celsius, terwijl de DHT22 een bereik heeft van -40 to +80 °C. Bij ons staat het op de DHT22,
 - *Data pin:* op welk pin van de micro:bit de datadraad is aangesloten. Bij ons staat hij ingesteld op P0.
 - *Pin pull-up:* de 3-pinsuitvoering van de DHT11/DHT22 sensoren hebben een interne pull-downweerstand en kies je voor waar. Bij de v4-pinsuitvoeringen moet je een externe weerstand gebruiken van ongeveer 10KΩ en kies je voor onwaar. De weerstand zorgt ervoor dat de spanning op de datadraad in rust 0 Volt is dat overeenkomt met -40 °C voor de DHT22.
 - *Serial output:* of je gebruik wilt maken van seriële overdracht van de gegevens, bijvoorbeeld naar een ESP8266 module.
-- *Wait 2 sec after query:* voor de DHT22 stel je de wachttijd voor de meting in op minimaal 2 seconden.
+- *Wait 2 sec after query:* voor de DHT22 stel je de wachttijd voor de meting in op minimaal 5 seconden.
 
 ## Stap 4 - Testen van de software
 
