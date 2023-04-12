@@ -31,6 +31,8 @@ Stap 3: Blokdiagram opzetten.
 
 Stap 4: Testen van de software.
 
+Stap 5{} Testen of de meting gelukt is.
+
 ## Stap 1 - De micro:bit verbinden met de DHT22
 
 Maak een opstelling zoals hier onder.
@@ -97,11 +99,20 @@ Het instellingenblok gebruik je om een aantal zaken in te stellen:
 - *Data pin:* op welk pin van de micro:bit de datadraad is aangesloten. Bij ons staat hij ingesteld op P0.
 - *Pin pull-up:* de 3-pinsuitvoering van de DHT11/DHT22 sensoren hebben een interne pull-downweerstand en kies je voor waar. Bij de v4-pinsuitvoeringen moet je een externe weerstand gebruiken van ongeveer 10KΩ en kies je voor onwaar. De weerstand zorgt ervoor dat de spanning op de datadraad in rust 0 Volt is dat overeenkomt met -40 °C voor de DHT22.
 - *Serial output:* of je gebruik wilt maken van seriële overdracht van de gegevens, bijvoorbeeld naar een ESP8266 module.
-- *Wait 2 sec after query:* voor de DHT22 stel je de wachttijd voor de meting in op minimaal 5 seconden.
+- *Wait 2 sec after query:* voor de DHT22 stel je de wachttijd voor de meting in op minimaal 3 seconden.
+
 
 ## Stap 4 - Testen van de software
 
-Als je op de A-knop drukt, laat de micro:bit zien hoe warm het is en er staat ook een cijfer achter de punt Als je op de B-knop drukt, laat de micro:bit zien hoe vochtig de lucht is en er staat ook een cijfer achter de punt. Een punt in het engels is voor ons een komma! Je ziet dus de waarde op een decimaal nauwkeurig.
+Als je op de A-knop drukt, laat de micro:bit zien hoe warm het is. Het toont ook een getal met een punt erin, dat betekent dat het heel precies is. Als je op de B-knop drukt, laat de micro:bit zien hoe vochtig de lucht is. Ook hier wordt er een getal met een punt getoond. Een punt in het Engels is hetzelfde als een komma in het Nederlands.
+
+## Stap 5 - Testen of de meting gelukt is
+
+Soms werkt het meten van de temperatuur en luchtvochtigheid niet goed. Daardoor kan er een foute waarde worden opgeslagen. Gelukkig is er een manier om te testen of het meten gelukt is. We kunnen de juiste waarde tijdelijk opslaan in een variable "tijdelijk" en dan controleren of het meten gelukt is. Als dat zo is, kunnen we de juiste waarde in een speciale plek bewaren. Zo weten we zeker dat we de goede temperatuur en luchtvochtigheid hebben gemeten en opgeslagen.
+
+![fig_5_8](assets/fig_5_8.png)
+
+Test de software opnieuw!
 
 ## Test je kennis
 
@@ -138,3 +149,5 @@ Wat moet je doen om de luchtvochtigheid te meten en op te slaan in een variabele
 ## Samenvatting
 
 We leren hoe we met de DHT22 sensor de temperatuur en vochtigheid in een kamer kunnen meten. We sluiten het aan op een BBC Micro:bit en met zelfgeschreven computerprogramma's lezen we de metingen uit. Om dit project uit te voeren, moeten we de DHT22 software downloaden en het blokdiagram opzetten. Daarna kunnen we de software testen en de temperatuur en vochtigheid meten.
+
+Zie ook: [https://github.com/rbontekoe/temperatuur-meten](https://github.com/rbontekoe/temperatuur-meten).
