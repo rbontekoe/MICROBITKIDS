@@ -31,7 +31,7 @@ Stap 3: Blokdiagram opzetten.
 
 Stap 4: Testen van de software.
 
-Stap 5{} Testen of de meting gelukt is.
+Stap 5: Testen of de meting gelukt is.
 
 ## Stap 1 - De micro:bit verbinden met de DHT22
 
