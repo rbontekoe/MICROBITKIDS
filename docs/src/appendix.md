@@ -89,3 +89,41 @@ Antwoord: 3. Beide antwoorden zijn correct
 2. De functie "stop"
 3. De functie "toon"
 Antwoord: 3. toon
+
+## Les 5, antwoorden op de multiple choice vragen
+
+Wat meet de DHT22 sensor?
+1. Temperatuur en vochtigheid
+2. Luchtdruk en windsnelheid
+3. Lichtintensiteit en geluidsniveau
+Antwoord: 1. Temperatuur en vochtigheid
+
+Welke computerprogramma's leer je schrijven tijdens deze les?
+1. Tekstverwerkingsprogramma's
+2. Spelletjes
+3. Programma's om de temperatuur te meten
+Antwoord: 3. Programma's om de temperatuur te meten
+
+Wat heb je nodig om de DHT22 sensor met de micro:bit te verbinden?
+1. Een breadboard met jumpers
+2. Een telefoon met een moderne browser
+3. Een toetsenbord en muis
+Antwoord: 1. Een breadboard met jumpers
+
+Welke actie moet je ondernemen in stap 2 van de les om de DHT22 stuursoftware te downloaden?
+1. Zoek naar "dht22" in de online makecode voor de micro:bit
+2. Download de software van de website van de fabrikant
+3. Vraag de leraar om de software op de computer te installeren
+Antwoord: 1. Zoek naar "dht22" in de online makecode voor de micro:bit
+
+Wat gebeurt er als je op toets A drukt tijdens het uitvoeren van het programma?
+1. De luchtvochtigheid wordt getoond
+2. De temperatuur wordt getoond
+3. Het programma stopt met werken
+Antwoord: 2. De temperatuur wordt getoond
+
+Wat moet je doen om de luchtvochtigheid te meten en op te slaan in een variabele?
+1. Gebruik het "Read temperature" blok en sla het op in de variabele "luchtvochtigheid"
+2. Gebruik het "Read humidity" blok en sla het op in de variabele "luchtvochtigheid"
+3. Gebruik het "Wait" blok en sla het op in de variabele "luchtvochtigheid"
+Antwoord: 2. Gebruik het "Read humidity" blok en sla het op in de variabele "luchtvochtigheid"
