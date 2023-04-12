@@ -2,6 +2,10 @@
 
 ## 2023
 
+### 12-4-2023 - Les 4 en 5 zijn klaar
+
+Ik zat met het probleem dat de code vast liep en een handmatige reset moest uitvoeren. Met het "reset" blok kun je de micro:bit met je software resetten. Dat heb ik nu ingebouwd en de code op github laten wijzigen. Het lijkt nu goed te werken!
+
 ### 31-03-2023 - Les 3 is klaar
 
 Hallo allemaal!
