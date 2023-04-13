@@ -113,7 +113,9 @@ Soms werkt het meten van de temperatuur en luchtvochtigheid niet goed. Daardoor 
 
 Test de software opnieuw!
 
-Soms gebeurt het dat de code op de computerchip vastloopt. Maar maak je geen zorgen. Je kunt het oplossen door op de knop "reset" te drukken of door het opdrachtblok "reset" te gebruiken. Dit zorgt ervoor dat de micro:bit weer goed gaat werken.
+Soms gebeurt het dat de code op de computerchip vastloopt. Maar maak je geen zorgen. Je kunt het oplossen door op de knop "reset" te drukken of door het opdrachtblok "reset" te gebruiken, zie: [uiteindelijke code](https://github.com/rbontekoe/temperatuur-meten). Dit zorgt ervoor dat de micro:bit weer goed gaat werken.
+
+
 
 ## Test je kennis
 
