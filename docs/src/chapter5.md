@@ -46,7 +46,7 @@ Maak een opstelling zoals hier onder.
 | 2 | Klik op de categorie "uitbreidingen". ``\\``![fig_5_1](assets/fig_5_1.png) |
 | 3 | Zoek naar "dht22". ``\\``![fig_5_2](assets/fig_5_2.png) |
 | 4 | Klik op het plaatje. ``\\``![fig_5_3](assets/fig_5_3.png) |
-| 5 | De uitbreiding wordt geinstalleerd. ``\\``![fig_5_4](assets/fig_5_4.png) |
+| 5 | De uitbreiding wordt toegevoegd. ``\\``![fig_5_4](assets/fig_5_4.png) |
 
 ## Stap 3 - Blokdiagram opzetten
 
