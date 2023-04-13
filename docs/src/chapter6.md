@@ -22,12 +22,32 @@ Voor de volgende stappen heb je ook deze spullen nodig:
 
 ## Wat je gaat doen
 
-Stap 1: De micro:bit volgens les 5 geschiktmaken voor het versturen van de temperatuur en luchtvochtigheid.
+Stap 1: Versturen van de temperatuur en luchtvochtigheid.
 
-Stap 2: De extra micro:bit geschiktmaken voor de ontvangst van de gegevens.
+Stap 2: Extra micro:bit geschiktmaken voor de ontvangst.
 
-## Stap 1 - De micro:bit volgens les 5 geschiktmaken voor het versturen van de temperatuur en luchtvochtigheid
+## Stap 1 - Versturen van de temperatuur en luchtvochtigheid
 
-## Stap 2 - De extra micro:bit geschiktmaken voor de ontvangst van de gegevens
+De micro:bit die je in les 5 hebt gemaakt, ga je klaarmaken om informatie over de temperatuur en luchtvochtigheid samen te versturen. We gaan het versturen op kanaal 20. We beginnen met de hoogste sterkte te gebruiken, maar je kunt experimenteren en de sterkte verminderen als dat beter werkt in jouw situatie.
+
+Herriner je nog hoe je het in les 3 hebt gedaan?
+
+##### Algemene strategie
+
+Je hebt misschien in les 1 gemerkt dat als je jouw naam in het "toon tekens" blok zet, het tussen aanhalingstekens wordt gezet. Bijvoorbeeld, "Rob". Dit noemen we een "string" in de computertaal. Dus "Rob" is een "string" en je kunt er niet mee rekenen!
+
+We willen informatie over de temperatuur en luchtvochtigheid samen verzenden. We willen ook weten in welke kamer we het hebben gemeten. In les 5 hebben we geleerd om de temperatuur en luchtvochtigheid apart op te slaan als getallen. Maar als we de informatie samen willen verzenden, moeten we er een **zin** van maken, zoals: "rb | 24 | 60.5".
+
+We gebruiken dus aanhalingstekens om onderscheid te maken tussen getallen en tekst.
+
+Als de extra micro:bit een zin ontvangt, moeten we die zin in stukjes verdelen. Daarom zouden we het symbool "|" als scheidingsteken kunnen gebruiken.
+
+##### Bedenk wat er moet gebeuren als de computer begint
+
+
+
+## Stap 2 - Extra micro:bit geschiktmaken voor de ontvangst
+
+Met de andere micro:bit laat je de ontvangen gegevens zien op het display.
 
 ## Samenvatting
