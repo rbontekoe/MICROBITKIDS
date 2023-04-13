@@ -11,7 +11,6 @@ Pages = ["chapter5.md"]
 ## Wat je nodig hebt
 
 - [BBC Micro:bit – Go:Bundle V2](https://elektronicavoorjou.nl/product/bbc-microbit-gobundle-v2/).
-
 - Micro USB aan Standaard USB kabel (is onderdeel van de bovenvermelde kit).
 - Een [breadboard met jumpers](https://elektronicavoorjou.nl/product/basis-kit-voor-bbc-microbit/).
 - Een [DHT22](https://elektronicavoorjou.nl/product/dht22-temp-vocht-sensor/).
@@ -86,7 +85,7 @@ Ik heb gemerkt dat je het instellingenblok het beste in het "de hele tijd" blok 
 - Data pin: P0
 - Pin pull-up: waar
 - Serial output: onwaar
-- Wait 2 sec after query: waar
+- Wait 2 sec after query: onwaar
 
 ![fig_5_7](assets/fig_5_7.png) ``\\``*Bedenk wat de computer steeds moet blijven doen*
 
@@ -99,7 +98,7 @@ Het instellingenblok gebruik je om een aantal zaken in te stellen:
 - *Data pin:* op welk pin van de micro:bit de datadraad is aangesloten. Bij ons staat hij ingesteld op P0.
 - *Pin pull-up:* de 3-pinsuitvoering van de DHT11/DHT22 sensoren hebben een interne pull-downweerstand en kies je voor waar. Bij de v4-pinsuitvoeringen moet je een externe weerstand gebruiken van ongeveer 10KΩ en kies je voor onwaar. De weerstand zorgt ervoor dat de spanning op de datadraad in rust 0 Volt is dat overeenkomt met -40 °C voor de DHT22.
 - *Serial output:* of je gebruik wilt maken van seriële overdracht van de gegevens, bijvoorbeeld naar een ESP8266 module.
-- *Wait 2 sec after query:* voor de DHT22 stel je de wachttijd voor de meting in op minimaal 3 seconden.
+- *Wait 2 sec after query:* voor de DHT22 stel je de wachttijd voor de meting zelf in op minimaal 3 seconden.
 
 
 ## Stap 4 - Testen van de software

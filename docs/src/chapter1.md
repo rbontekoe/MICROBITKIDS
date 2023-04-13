@@ -100,7 +100,7 @@ Elke laptop is anders, dus de stappen die je moet volgen zijn ook anders. Ik ga 
 | 3 | Ga naar het mapje genaamd "Micro:bit" dat je in stap 4 hebt gemaakt en zoek daar het bestand "microbit-Mijn-naam.hex" dat je in stap 4 hebt opgeslagen. |
 | 4 | Kijk waar de USB-aansluiting "MICROBIT" staat. ``\\``![fig_1_14](assets/fig_1_14.png) |
 | 5 | Sleep het bestand "microbit-Mijn-naam.hex" naar de plek die "MICROBIT" heet. |
-| 6 | Kijk of het lampje aan de achterkant van je Micro:bit begint te knipperen! Wacht totdat je jouw naam op het Led-display ziet verschijnen en het lampje stopt met knipperen. Dan weet je dat de code nu op je Micro:bit staat. |
+| 6 | Kijk of het lampje aan de achterkant van je Micro:bit begint te knipperen! Wacht totdat je jouw naam op het Led-display ziet verschijnen en het lampje stopt met knipperen. Dan weet je dat de code nu op je Micro:bit staat. ``\\``![fig_1_18](assets/fig_1_18.png) |
 ||
 
 ## Stap 6 - Micro:bit gebruikershandleiding
