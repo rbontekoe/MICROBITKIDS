@@ -79,6 +79,7 @@ Zorg ervoor dat je deze instellingen toevoegt aan de "bij opstarten" blok.
 | 7 | Voeg vervolgens toe: \|, de variable "luchtvochtigheid"  ``\\``![fig_6_6](assets/fig_6_6.png) |
 | 8 | Voeg toe in het "de hele tijd" blok aan het einde, het blok "Radio verzend zin" ``\\``![fig_6_7](assets/fig_6_7.png) |
 | 9 | Sleep het blok "voeg samen..." er in. |
+||
 
 ![fig_6_8](assets/fig_6_8.png) ``\\``*Eind resultaat van "Bedenk wat de computer steeds moet blijven doen"*
 
@@ -86,5 +87,31 @@ Zorg ervoor dat je deze instellingen toevoegt aan de "bij opstarten" blok.
 ## Stap 2 - Extra micro:bit geschiktmaken voor de ontvangst
 
 Met de andere micro:bit laat je de ontvangen gegevens zien op het display.
+
+##### Wat is een array?
+
+Een array is als een doos met meerdere vakjes waarin je verschillende waarden kunt bewaren. Elk vakje heeft een specifiek nummer, wat het "indexnummer" wordt genoemd. Dit nummer begint meestal bij 0 en loopt op tot het aantal elementen in de array minus 1.
+
+Stel je bijvoorbeeld een doos voor met zeven vakjes, genummerd van 0 tot 6, waarin je zeven verschillende kleuren kunt bewaren. Je zou de doos kunnen vullen met de volgende kleuren: rood, oranje, geel, groen, blauw, indigo en violet.
+
+##### Algemene strategie
+
+Van de micro:bit die de temperatuur een luchtvochtigheid meet wil je de gegevens in drie delen splitsen en opslaan. De string ziet er zo uit: "R|20.5|60.3". Dit betekent dat de temperatuur 20,5 graden Celsius is en de luchtvochtigheid 60,3% is.
+
+Om deze informatie beter te kunnen gebruiken, willen we de string in drie delen splitsen en deze opslaan in een een array. Stel je voor dat we de array "lijst" noemen. We willen de string splitsen op de plekken waar de "|" tekens staan. Dit betekent dat we de string in drie delen kunnen verdelen: de letter "R", het getal "20.5" en het getal "60.3". We kunnen deze drie delen opslaan in onze "lijst" array.
+
+|Indexnr     | Waarde      |
+|:---------- | :---------- |
+| 0 | "R" |
+| 1 | "20.5" |
+| 2 | "60.3" |
+||
+
+Nu kunnen we de informatie gemakkelijk gebruiken door simpelweg naar de juiste plek in de array te kijken. Bijvoorbeeld, als we de temperatuur willen weten, kijken we naar het tweede vakje van de array met de index 1.
+
+Daarvoor gebruik je de opdrachtblokken die in de categorie "Matrices" staat, bijvoorbeeld "lijst haal waarde op, op 0" De waarde 0 vervang je door het indexnummer 1.
+
+![fig_6_](assets/fig_6_10.png)
+
 
 ## Samenvatting
