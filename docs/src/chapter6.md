@@ -76,7 +76,7 @@ Zorg ervoor dat je deze instellingen toevoegt aan de "bij opstarten" blok.
 | 4 | Veranderd "wereld" door het "\|" teken. ``\\``![fig_6_4](assets/fig_6_4.png) |
 | 5 | Klik op het "+" teken in het blok om aan te geven dat je meer wilt toevoegen. Er verschijnt een nieuw leeg veld. |
 | 6 | Sleep de variabele "temperatuur" naar het lege veld. ``\\``![fig_6_5](assets/fig_6_5.png) |
-| 7 | Voeg vervolgens toe: |, de variable "luchtvochtigheid"  ``\\``![fig_6_6](assets/fig_6_6.png) |
+| 7 | Voeg vervolgens toe: \|, de variable "luchtvochtigheid"  ``\\``![fig_6_6](assets/fig_6_6.png) |
 | 8 | Voeg toe in het "de hele tijd" blok aan het einde, het blok "Radio verzend zin" ``\\``![fig_6_7](assets/fig_6_7.png) |
 | 9 | Sleep het blok "voeg samen..." er in. |
 
