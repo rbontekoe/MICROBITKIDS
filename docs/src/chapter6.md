@@ -96,7 +96,7 @@ Stel je bijvoorbeeld een doos voor met zeven vakjes, genummerd van 0 tot 6, waar
 
 ##### Algemene strategie
 
-Van de micro:bit die de temperatuur een luchtvochtigheid meet wil je de gegevens in drie delen splitsen en opslaan. De string ziet er zo uit: "R|20.5|60.3". Dit betekent dat de temperatuur 20,5 graden Celsius is en de luchtvochtigheid 60,3% is.
+Van de micro:bit die de temperatuur een luchtvochtigheid meet wil je de gegevens in drie delen splitsen en opslaan. De string ziet er zo uit: "R|20.5|60.3". Dit betekent dat de temperatuur 20,5°C is en de luchtvochtigheid 60,3% is.
 
 Om deze informatie beter te kunnen gebruiken, willen we de string in drie delen splitsen en deze opslaan in een een array. Stel je voor dat we de array "lijst" noemen. We willen de string splitsen op de plekken waar de "|" tekens staan. Dit betekent dat we de string in drie delen kunnen verdelen: de letter "R", het getal "20.5" en het getal "60.3". We kunnen deze drie delen opslaan in onze "lijst" array.
 
@@ -112,6 +112,8 @@ Nu kunnen we de informatie gemakkelijk gebruiken door simpelweg naar de juiste p
 Daarvoor gebruik je de opdrachtblokken die in de categorie "Matrices" staat, bijvoorbeeld "lijst haal waarde op, op 0" De waarde 0 vervang je door het indexnummer 1.
 
 ![fig_6_](assets/fig_6_10.png)
+
+Hoe splits je een string?
 
 
 ## Samenvatting
