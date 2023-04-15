@@ -2,7 +2,18 @@
 
 ## 2023
 
-### 12-4-2023 - Les 4 en 5 zijn klaar
+### 15-04-2023 -  String variabele werkt niet
+
+Terwijl ik bezig was met les 6 liep ik tegen een probleem aan. Ik kon geen variabele maken om de verzonden string op te slaan in de variabele "ontvangststr". Er bleken meer mensen te zijn die dit probleem hadden, zie: [MakeCode String Variable not working](https://github.com/microsoft/pxt-microbit/issues/3834).
+
+Oplossing:
+1. Maak een variable aan.
+2. Sleep een lege string "", uit de categorie **Tekst** naar de plek waar de 0 staat.
+3. Typ de tekst.
+
+![fig_blog_1](assets/fig_blog_1.png)
+
+### 12-04-2023 - Les 4 en 5 zijn klaar
 
 Ik zat met het probleem dat de code vast liep en een handmatige reset moest uitvoeren. Met het "reset" blok kun je de micro:bit met je software resetten. Dat heb ik nu ingebouwd en de code op github laten wijzigen. Het lijkt nu goed te werken!
 
