@@ -111,9 +111,13 @@ Nu kunnen we de informatie gemakkelijk gebruiken door simpelweg naar de juiste p
 
 Daarvoor gebruik je de opdrachtblokken die in de categorie "Matrices" staat, bijvoorbeeld "lijst haal waarde op, op 0" De waarde 0 vervang je door het indexnummer 1.
 
-![fig_6_](assets/fig_6_10.png)
+![fig_6_10](assets/fig_6_10.png)
 
-Hoe splits je een string?
+Hoe splits je een string? Een string splits je met het opdrachtblok "splits" in de categorie "Tekst".
+
+![fig_6_11](assets/fig_6_11.png)
+
+In het veld "this" verwijs je naar de variabele die de string bevat en in het veld "" vermeld je het teken waarop gesplitst moet worden, in ons geval dus "|".
 
 
 ## Samenvatting
