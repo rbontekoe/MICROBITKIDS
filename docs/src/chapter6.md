@@ -48,7 +48,7 @@ We willen informatie naar een andere micro:bit sturen. Daarom moeten we ervoor z
 
 ![fig_6_1](assets/fig_6_1.png)
 
-##### Bedieningselementen instellen
+##### Gebeurtenissen instellen
 
 Deze informatie is op dit moment niet nodig.
 
@@ -113,11 +113,45 @@ Daarvoor gebruik je de opdrachtblokken die in de categorie "Matrices" staat, bij
 
 ![fig_6_10](assets/fig_6_10.png)
 
-Hoe splits je een string? Een string splits je met het opdrachtblok "splits" in de categorie "Tekst".
+Wil je een lange zin of woord in stukjes hakken? Dat kan met het "splits" opdrachtblok in de categorie "Tekst". Zo wordt de zin of het woord verdeeld in kleinere stukjes die je apart kan gebruiken.
 
 ![fig_6_11](assets/fig_6_11.png)
 
-In het veld "this" verwijs je naar de variabele die de string bevat en in het veld "" vermeld je het teken waarop gesplitst moet worden, in ons geval dus "|".
+Je moet dan aangeven welk teken je als "schaar" wilt gebruiken om het woord of de zin te splitsen. Dit kan je aangeven door het teken in te vullen in het tweede veld, bijvoorbeeld "|". In het eerste veld geef je aan welk woord of welke zin je wilt gebruiken. Meestal is het een variabele. Zo kan de computer begrijpen welke zin je bedoelt en wat ermee moet gebeuren.
+
+![fig_6_12](assets/fig_6_12.png)
+
+
+Als je het woord of de zin in stukjes hebt gehakt, kan je ze apart gebruiken. Als je meer dan één stukje hebt, krijg je een groepje stukjes dat een "array" wordt genoemd, in dit geval met de naam "lijst". Kijk nog even naar het blogartikel [String-variabele-werkt-niet](../blog/index.html#04-2023-String-variabele-werkt-niet) hoe je een string variabele maakt.
+
+##### Bedenk wat er moet gebeuren als de computer begint
+
+|Stap        | Actie      |
+|:---------- | :---------- |
+| 1 | Sleep "radio instellen groep" in de categorie "Radio" naar het "bij opstarten" blok. |
+| 2 | Vervang in het veld de "1" door "20". |
+| 3 | Maak een variabele "lijst" en sleep "stel lijst in op 0" naar het "bij opstarten" blok. |
+| 4 | Sleep het "splits" blok uit de categorie "Tekst" naar het veld waar "0" staat. |
+| 5 | Vervang het veld "this" met de volgende tekst: R\|10\|50. |
+| 6 | Vervang het veld ""  door: het \|-teken. |
+||
+
+![fig_6_13](assets/fig_6_13.png) ``\\``*Resultaat na stap 6*
+
+##### Gebeurtenissen instellen
+
+Het gaat hier om de gebeurtenis als er een string wordt ontvangen.
+
+|Stap        | Actie      |
+|:---------- | :---------- |
+| 1 | Sleep het "wanneer de radio ontvangt receivedString" blok uit de categorie "Radio" naar je werkblad. |
+| 2 | Sleep het "stel lijst in op 0" blok uit de categorie "Variabelen" naar het "wanneer de radio ontvangt receivedString" blok |
+| 3 | Sleep het "splits" blok uit de categorie "Tekst" naar het veld waar "0" staat. |
+| 4 | Sleep met je linkermuistoets op de variabele "receivedString" naar het veld waar "this" staat. |
+| 5 | Vervang het veld ""  door: het \|-teken. |
+||
+
+![fig_6_14](assets/fig_6_14.png) ``\\``*Resultaat naar stap 5*
 
 
 ## Samenvatting

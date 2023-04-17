@@ -66,12 +66,12 @@ Maak de volgende twee variabelen en zet beiden in het blok "bij opstarten".
 
 ![fig_5_5](assets/fig_5_5.png) ``\\``*Resultaat na "Bedenk wat er moet gebeuren als de computer begint"*
 
-##### Bedieningselementen instellen
+##### Gebeurtenissen instellen
 
 - Toets A laat de temperatuur zien.
 - Totes B laat de luchtvochtigheid zien.
 
-![fig_5_6](assets/fig_5_6.png) ``\\``*Resultaat na "Bedieningselementen instellen"*
+![fig_5_6](assets/fig_5_6.png) ``\\``*Resultaat na "Gebeurtenissen instellen"*
 
 ##### Bedenk wat de computer steeds moet blijven doen
 

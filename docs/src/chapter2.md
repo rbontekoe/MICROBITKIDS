@@ -38,7 +38,7 @@ Stap 2: Algemene strategie.
 
 Stap 3: Bedenk wat er moet gebeuren als de computer begint. 
 
-Stap 4: Bedieningselementen instellen.
+Stap 4: Gebeurtenissen instellen.
 
 Stap 5: Bedenk wat de computer steeds moet blijven doen.
 
@@ -100,7 +100,7 @@ Wanneer je een computerprogramma maakt, wil je misschien beginnen met het instel
 | 7 | Druk op de knop "OK". |
 | 8 | Sleep "stel snelheid in op 0" naar het blok "bij opstarten". ``\\``![fig_2_9](assets/fig_2_9.png) |
 
-## Stap 4: Bedieningselementen instellen
+## Stap 4: Gebeurtenissen instellen
 
 In deze stap ga je aan de computer uitleggen wat hij moet doen in een nieuwe situatie. Het is een beetje zoals wanneer je aan een vriend uitlegt wat hij moet doen als er iets verandert. Maar in plaats daarvan praat je met de computer en vertel je hem welke informatie hij moet gebruiken om de juiste dingen te doen. Dit doe je door bepaalde waarden te veranderen, zodat de computer weet wat hij moet doen.
 
