@@ -127,3 +127,53 @@ Wat moet je doen om de luchtvochtigheid te meten en op te slaan in een variabele
 2. Gebruik het "Read humidity" blok en sla het op in de variabele "luchtvochtigheid"
 3. Gebruik het "Wait" blok en sla het op in de variabele "luchtvochtigheid"
 Antwoord: 2. Gebruik het "Read humidity" blok en sla het op in de variabele "luchtvochtigheid"
+
+## Les 6, antwoorden op de multiple choice vragen
+
+Waar gaat deze les over?
+1. Het meten van temperatuur en luchtvochtigheid met een DHT22
+2. Het programmeren van een micro:bit
+3. Het versturen van gegevens tussen micro:bits
+Antwoord: 3
+
+Wat is een DHT22?
+1. Een soort computerprogramma
+2. Een micro:bit accessoire voor het meten van temperatuur en luchtvochtigheid
+3. Een onderdeel van een breadboard
+Antwoord: 2
+
+Welke sterkte wordt in eerste instantie gebruikt bij het versturen van gegevens tussen micro:bits?
+1. 7
+2. 20
+3. 10
+Antwoord: 1
+
+Waarvoor wordt het scheidingsteken "|" gebruikt?
+1. Om informatie te versturen tussen micro:bits
+2. Om getallen en tekst van elkaar te scheiden
+3. Om een micro:bit geschikt te maken voor ontvangst
+Antwoord: 2
+
+Op welk kanaal wordt informatie verstuurd tussen de micro:bits?
+1. Kanaal 7
+2. Kanaal 20
+3. Kanaal 10
+Antwoord: 2
+
+Welke computerbrowser heb je nodig voor deze les?
+1. Firefox
+2. Safari
+3. Chrome
+Antwoord: 3
+
+Welk blokje wordt gebruikt om belangrijke informatie samen te voegen?
+1. Voeg samen
+2. Als...dan
+3. De hele tijd
+Antwoord: 1
+
+Wat moet er gebeuren voordat gegevens tussen micro:bits kunnen worden verstuurd?
+1. Beiden moeten op hetzelfde kanaal zijn ingesteld
+2. Er moet een extra micro:bit bordje zijn aangesloten
+3. Er moet een laptop zijn aangesloten
+Antwoord: 1

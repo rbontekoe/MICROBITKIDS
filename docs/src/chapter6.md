@@ -140,7 +140,7 @@ Als je het woord of de zin in stukjes hebt gehakt, kan je ze apart gebruiken. Al
 
 ##### Gebeurtenissen instellen
 
-Het gaat hier om de gebeurtenis als er een string wordt ontvangen.
+Dit gaat over wat er gebeurt als er een samengestelde string binnenkomt.
 
 |Stap        | Actie      |
 |:---------- | :---------- |
@@ -153,5 +153,54 @@ Het gaat hier om de gebeurtenis als er een string wordt ontvangen.
 
 ![fig_6_14](assets/fig_6_14.png) ``\\``*Resultaat naar stap 5*
 
+##### Bedenk wat de computer steeds moet blijven doen
+
+We wilen alleen de temperatuur laten zien.
+
+![fig_6_15](assets/fig_6_15.png) ``\\``*Resultaat bedenk wat de computer steeds moet blijven doen*
+
+## Test je kennis
+
+Waar gaat deze les over?
+1. Het meten van temperatuur en luchtvochtigheid met een DHT22
+2. Het programmeren van een micro:bit
+3. Het versturen van gegevens tussen micro:bits
+
+Wat is een DHT22?
+1. Een soort computerprogramma
+2. Een micro:bit accessoire voor het meten van temperatuur en luchtvochtigheid
+3. Een onderdeel van een breadboard
+
+Welke sterkte wordt in eerste instantie gebruikt bij het versturen van gegevens tussen micro:bits?
+1. 7
+2. 20
+3. 10
+
+Waarvoor wordt het scheidingsteken "|" gebruikt?
+1. Om informatie te versturen tussen micro:bits
+2. Om getallen en tekst van elkaar te scheiden
+3. Om een micro:bit geschikt te maken voor ontvangst
+
+Op welk kanaal wordt informatie verstuurd tussen de micro:bits?
+1. Kanaal 7
+2. Kanaal 20
+3. Kanaal 10
+
+Welke computerbrowser heb je nodig voor deze les?
+1. Firefox
+2. Safari
+3. Chrome
+
+Welk blokje wordt gebruikt om belangrijke informatie samen te voegen?
+1. Voeg samen
+2. Als...dan
+3. De hele tijd
+
+Wat moet er gebeuren voordat gegevens tussen micro:bits kunnen worden verstuurd?
+1. Beiden moeten op hetzelfde kanaal zijn ingesteld
+2. Er moet een extra micro:bit bordje zijn aangesloten
+3. Er moet een laptop zijn aangesloten
 
 ## Samenvatting
+
+Deze les gaat over het verzenden van gegevens tussen micro:bits met behulp van een DHT22 om de temperatuur en luchtvochtigheid te meten. Om de gegevens samen te versturen, moeten we er een zin van maken. Om informatie naar een andere micro:bit te sturen, moeten we ervoor zorgen dat beiden op hetzelfde kanaal staan ingesteld. We willen alleen gegevens versturen als de meting goed is gegaan. Het algoritme is dus: voeg de gegevens kamer, temperatuur en luchtvochtigheid samen, gescheiden door "|", en verstuur de informatie naar elke andere micro:bit op hetzelfde kanaal.
