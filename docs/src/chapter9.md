@@ -1,15 +1,17 @@
-# 9. Communicatie via wifi
+## 8. Displays aansturen via i2c bus
 
-*Het is jammer dat je met een Micro:bit niet direct op je wifi netwerk kunt aansluiten. Maar als je een ESP-01 toevoegt aan de Micro:bit, dan kan dat wel. Hierdoor kun je gegevens versturen. Je leert dan hoe dat werkt.*
+*Op een 12c bus kun je verschillende dingen aansluiten, zoals schermpjes. Elk ding heeft een eigen adres, net zoals huizen in een straat een eigen nummer hebben. Hierdoor kun je elk ding apart vertellen wat het moet doen. Het schermpje van de Micro:bit laat de tekst letter voor letter zien, net als bij een lichtkrant op straat. Maar als je een OLED schermpje gebruikt, kun je de tekst per regel laten zien. Hier leer je nog meer over hoe dat werkt.*
 
 ### Inhoud
 
 ```@contents
-Pages = ["chapter9.md"]
+Pages = ["chapter8.md"]
 ```
 
 ## Wat je nodig hebt
 
 ## Wat je gaat doen
+
+### Stap 1 - Verbind je computer via SSH verbinden met de Raspberry Pi
 
 ## Samenvatting

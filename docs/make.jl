@@ -22,8 +22,9 @@ sitename = "MICROBITKIDS",
         ],
         "Level 3 - MicroPython" => [
             "7 - Introductie MicroPython" => "chapter7.md",
-            "8 - Displays aansturen via de i2c bus" => "chapter8.md",
-            "9 - Communicatie via wifi" => "chapter9.md"
+            "8 - Programmeren met MicroPython" => "chapter8.md",
+            "9 - Displays aansturen via de i2c bus" => "chapter9.md",
+            "10 - Communicatie via wifi" => "chapter10.md"
         ],
         "Bijlage" => "appendix.md",
         "References" => "references.md"
