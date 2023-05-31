@@ -93,14 +93,15 @@ Een van de meest gebruikte lussen in programmeren is de while-lus. Deze lus voer
 ```
 from microbit import *
 
-counter = 0
+while True:
+    counter = 0
+    
+    while counter < 5:
+        display.show(counter)
+        counter += 1
+        sleep(1000)
 
-while counter < 5:
-    display.show(counter)
-    counter += 1
-    sleep(1000)
-
-display.scroll("Klaar!")
+    display.scroll("Klaar!")
 ```
 
 In deze code hebben we een while-lus gemaakt die wordt uitgevoerd zolang de variabele counter kleiner is dan 5. Binnen de lus tonen we de waarde van counter op het scherm van de micro:bit, verhogen we de waarde van counter met 1 en pauzeren we voor 1 seconde voordat we doorgaan naar de volgende iteratie.
@@ -121,12 +122,13 @@ Een veelgebruikte voorwaarde is de if-statement. Hiermee kunnen we een blok code
 ```
 from microbit import *
 
-lichtniveau = display.read_light_level()
+while True:
+    lichtniveau = display.read_light_level()
 
-if lichtniveau > 100:
-    display.show(Image.HAPPY)
-else:
-    display.show(Image.SAD)
+    if lichtniveau > 100:
+        display.show(Image.HAPPY)
+    else:
+        display.show(Image.SAD)
 ```
 
 In deze code lezen we het lichtniveau van de omgeving met behulp van de display.read_light_level()-functie. Daarna gebruiken we een if-statement om te controleren of het lichtniveau groter is dan 100. Als dat het geval is, tonen we een vrolijk gezichtje op het scherm. Anders tonen we een verdrietig gezichtje.
@@ -142,15 +144,16 @@ Met behulp van deze operatoren kunnen we complexere beslissingen maken. Bijvoorb
 ```
 from microbit import *
 
-knop_a_ingedrukt = button_a.is_pressed()
-knop_b_ingedrukt = button_b.is_pressed()
+while True:
+    knop_a_ingedrukt = button_a.is_pressed()
+    knop_b_ingedrukt = button_b.is_pressed()
 
-if knop_a_ingedrukt and not knop_b_ingedrukt:
-    display.show("A")
-elif not knop_a_ingedrukt and knop_b_ingedrukt:
-    display.show("B")
-else:
-    display.show("-")
+    if knop_a_ingedrukt and not knop_b_ingedrukt:
+        display.show("A")
+    elif not knop_a_ingedrukt and knop_b_ingedrukt:
+        display.show("B")
+    else:
+        display.show("-")
 ```
 
 In deze code controleren we de status van knop A en knop B. Afhankelijk van welke knop is ingedrukt, tonen we een bijbehorende letter op het scherm van de micro:bit. Als beide knoppen zijn ingedrukt, tonen we een streepje ("-").
@@ -168,8 +171,9 @@ from microbit import *
 
 def groet():
     display.scroll("Hallo!")
-
-groet()
+    
+while True:
+    groet()
 ```
 
 In deze code hebben we een functie genaamd "groet" gedefinieerd met behulp van het def-keyword. Binnen de functie gebruiken we de instructie display.scroll("Hallo!") om de tekst "Hallo!" te laten scrollen op het scherm van de micro:bit.
@@ -184,8 +188,9 @@ from microbit import *
 def begroet(naam):
     display.scroll("Hallo, " + naam + "!")
 
-begroet("Jan")
-begroet("Lisa")
+while True:
+    begroet("Jan")
+    begroet("Lisa")
 ```
 
 In deze code heeft de functie "begroet" een argument genaamd "naam". We gebruiken het argument om de persoon te begroeten door hun naam aan de begroeting toe te voegen. We kunnen de functie aanroepen met verschillende namen om gepersonaliseerde begroetingen te krijgen.
@@ -204,7 +209,8 @@ from microbit import *
 
 scores = [8, 5, 9, 6, 7]
 
-display.show(str(scores[0]))
+while True:
+    display.show(str(scores[1]))
 ```
 
 In deze code hebben we een lijst met scores gemaakt. Elke score wordt weergegeven als een geheel getal. We kunnen de waarden in de lijst benaderen met behulp van een index. Merk op dat de indexen beginnen bij 0, dus scores[0] geeft de eerste score in de lijst.
@@ -217,11 +223,12 @@ from microbit import *
 
 scores = [8, 5, 9, 6, 7]
 
-for score in scores:
-    display.show(str(score))
-    sleep(1000)
+while True:
+    for score in scores:
+        display.show(str(score))
+        sleep(1000)
 
-display.clear()
+    display.clear()
 ```
 
 In deze code gebruiken we een for-lus om elke score in de lijst te doorlopen. Binnen de lus tonen we elke score op het scherm en pauzeren we voor 1 seconde voordat we doorgaan naar de volgende score. Aan het einde van de lus wissen we het scherm.
@@ -241,12 +248,20 @@ Laten we een voorbeeld bekijken:
 ```
 from microbit import *
 
+scores = [8, 5, 9, 6, 7]
+
 def verdubbel_getal(getal):
     verdubbelde_waarde = getal * 2
     return verdubbelde_waarde
 
-resultaat = verdubbel_getal(5)
-display.show(str(resultaat))
+while True:
+    while True:
+        for score in scores:
+            resultaat = verdubbel_getal(score)
+            display.scroll(str(resultaat))
+            sleep(1000)
+        
+        display.clear()
 ```
 
 In deze code hebben we een functie genaamd "verdubbel_getal" gemaakt. Deze functie accepteert een argument genaamd "getal". Binnen de functie vermenigvuldigen we het getal met 2 en slaan we het resultaat op in een variabele genaamd "verdubbelde_waarde". Vervolgens gebruiken we het return-keyword om de verdubbelde waarde terug te geven.
@@ -292,10 +307,11 @@ from neopixel import NeoPixel
 
 strip = NeoPixel(pin0, 8)
 
-strip[0] = (255, 0, 0)  # Rood
-strip[1] = (0, 255, 0)  # Groen
-strip[2] = (0, 0, 255)  # Blauwe ervarin
-strip.show()
+while True:
+    strip[0] = (255, 0, 0)  # Rood
+    strip[1] = (0, 255, 0)  # Groen
+    strip[2] = (0, 0, 255)  # Blauwe ervarin
+    strip.show()
 ```
 
 In deze code importeren we zowel de "microbit" module als de "neopixel" bibliotheek. We maken een NeoPixel-object genaamd "strip" dat is verbonden met pin 0 en 8 LED's heeft. Vervolgens stellen we de kleuren van de eerste drie LED's in op respectievelijk rood, groen en blauw. We roepen strip.show() aan om de LED's daadwerkelijk te laten oplichten.
@@ -319,14 +335,14 @@ We importeren de "microbit" module om toegang te krijgen tot de functionaliteit 
 Nu kunnen we de code schrijven om de klok te laten werken:
 ```
 def toon_tijd():
-    while True:
-        huidige_tijd = time.localtime()
-        uren = str(huidige_tijd[3])
-        minuten = str(huidige_tijd[4]).zfill(2)  # Voeg een voorloopnul toe indien nodig
-        display.show(uren + ":" + minuten)
-        time.sleep(1)
-
-toon_tijd()
+    huidige_tijd = [2023, 5, 31, 16, 2, 33, 2, 151, 1]
+    uren = str(huidige_tijd[3])
+    minuten = str(huidige_tijd[4])
+    display.scroll(uren + ":" + minuten)
+    sleep(1000)
+    
+while True:
+    toon_tijd()
 ```
 
 We definiëren een functie genaamd "toon_tijd" die in een oneindige lus de huidige tijd ophaalt met time.localtime(). We halen de uren en minuten op uit de tijdstructuur en zetten ze om naar strings. Met behulp van str.zfill(2) voegen we een voorloopnul toe aan de minuten als deze enkelvoudig zijn.
