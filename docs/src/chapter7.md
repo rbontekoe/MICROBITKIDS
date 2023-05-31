@@ -9,6 +9,8 @@ Pages = ["chapter7.md"]
 ```
 ## Wat je nodig hebt
 
+
+
 ## Wat je gaat doen
 
 ## Samenvatting

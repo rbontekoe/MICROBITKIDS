@@ -151,7 +151,7 @@ Dit gaat over wat er gebeurt als er een samengestelde string binnenkomt.
 | 5 | Vervang het veld ""  door: het \|-teken. |
 ||
 
-![fig_6_14](assets/fig_6_14.png) ``\\``*Resultaat naar stap 5*
+![fig_6_14](assets/fig_6_14.png) ``\\``*Resultaat na stap 5*
 
 ##### Bedenk wat de computer steeds moet blijven doen
 
